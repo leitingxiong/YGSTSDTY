@@ -1,7 +1,9 @@
-using DC.BattleBusiness.Context;
-using DC.BattleBusiness.Factory;
+using DC;
+using ScriptsRuntime.Client.Controllers.Battle.Context;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.Minion;
+using ScriptsRuntime.Client.Controllers.Battle.Factory;
 
-namespace DC.BattleBusiness.Domain {
+namespace ScriptsRuntime.Client.Controllers.Battle.Domain {
 
     public class BattleMinionDomain {
 
@@ -15,7 +17,7 @@ namespace DC.BattleBusiness.Domain {
             this.battleFactory = battleFactory;
         }
 
-        public BattleMinionEntity SpawnMinionByTemplate(int templateID, AllyStatus allyStatus) {
+        public PlayerAttributeEntity SpawnMinionByTemplate(int templateID, AllyStatus allyStatus) {
             var repo = battleContext.MinionRepo;
             var minion = battleFactory.CreateMinionEntity(templateID, allyStatus);
             repo.Add(minion);

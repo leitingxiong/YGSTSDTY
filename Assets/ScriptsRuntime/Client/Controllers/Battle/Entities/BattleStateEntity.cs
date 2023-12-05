@@ -1,4 +1,6 @@
-namespace DC.BattleBusiness {
+using ScriptsRuntime.Client.Controllers.Battle.Generic.Enum;
+
+namespace ScriptsRuntime.Client.Controllers.Battle.Entities {
 
     public class BattleStateEntity {
 

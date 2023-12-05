@@ -1,7 +1,8 @@
 using System.Collections.Generic;
+using ScriptsRuntime.Client.Applications.UIApplication.Enum;
 using UnityEngine;
 
-namespace DC.UIApplication {
+namespace ScriptsRuntime.Client.Applications.UIApplication.Repo {
 
     public class UIRootRepo {
 

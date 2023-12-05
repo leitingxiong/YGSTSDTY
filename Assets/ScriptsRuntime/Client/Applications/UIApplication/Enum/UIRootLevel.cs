@@ -1,4 +1,4 @@
-namespace DC.UIApplication {
+namespace ScriptsRuntime.Client.Applications.UIApplication.Enum {
 
     public enum UIRootLevel {
         None,

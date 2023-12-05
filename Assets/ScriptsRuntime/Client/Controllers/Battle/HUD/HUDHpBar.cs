@@ -1,8 +1,7 @@
-using System;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.HUD {
 
     public class HUDHpBar : MonoBehaviour {
 

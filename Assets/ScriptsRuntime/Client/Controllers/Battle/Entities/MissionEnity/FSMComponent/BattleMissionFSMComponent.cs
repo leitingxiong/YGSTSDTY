@@ -1,4 +1,7 @@
-namespace DC.BattleBusiness {
+using ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity.FSMComponent.Enum;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity.FSMComponent.StateModel;
+
+namespace ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity.FSMComponent {
 
     public class BattleMissionFSMComponent {
 

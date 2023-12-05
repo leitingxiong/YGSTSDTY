@@ -1,4 +1,6 @@
-namespace DC.BattleBusiness {
+using DC;
+
+namespace ScriptsRuntime.Client.Controllers.Battle.Model {
 
     public class CalculationMinionModel {
 

@@ -1,24 +1,19 @@
-using DC.UIApplication;
 using DC.Infrastructure.Context;
-using DC.BattleBusiness.Context;
-using DC.BattleBusiness.Factory;
+using ScriptsRuntime.Client.Applications.UIApplication;
+using ScriptsRuntime.Client.Applications.UIApplication.Panel;
+using ScriptsRuntime.Client.Controllers.Battle.Context;
+using ScriptsRuntime.Client.Controllers.Battle.Factory;
 
-namespace DC.BattleBusiness.Controller {
+namespace ScriptsRuntime.Client.Controllers.Battle {
 
     // 战斗时
-    public class BattleController {
+    public class YardController {
 
         InfraContext infraContext;
 
-        AllBattleDomain allBattleDomain;
-        BattleContext battleContext;
-        BattleFactory battleFactory;
-
-        public BattleController() {
-            this.allBattleDomain = new AllBattleDomain();
-            this.battleContext = new BattleContext();
-            this.battleFactory = new BattleFactory();
-        }
+        AllBattleDomain allBattleDomain = new();
+        BattleContext battleContext = new();
+        BattleFactory battleFactory = new();
 
         public void Inject(InfraContext infraContext, UIApp uIApp) {
             
@@ -36,15 +31,6 @@ namespace DC.BattleBusiness.Controller {
 
         public void Enter(int chapter, int level) {
 
-            // 0. Load Player DB
-
-            // 1. Load First Mission
-
-            // 2. Spawn Mission: Monsters
-
-            // 3. Spawn Minion
-
-            // 4. Open UI
             var uiBattle = battleContext.UIApp.Open<UI_Battle>();
             allBattleDomain.MissionDomain.SpawnMissionByTemplate(chapter,level);
 

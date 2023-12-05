@@ -1,25 +1,27 @@
 using System;
 using System.Collections.Generic;
+using DC;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.Minion;
 
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Repo {
 
     public class BattleMinionRepo {
 
-        Dictionary<int, BattleMinionEntity> all;
+        Dictionary<int, PlayerAttributeEntity> all;
 
         public BattleMinionRepo() {
-            this.all = new Dictionary<int, BattleMinionEntity>();
+            this.all = new Dictionary<int, PlayerAttributeEntity>();
         }
 
-        public void Add(BattleMinionEntity entity) {
+        public void Add(PlayerAttributeEntity entity) {
             this.all.Add(entity.EntityID, entity);
         }
 
-        public bool TryGet(int entityID, out BattleMinionEntity entity) {
+        public bool TryGet(int entityID, out PlayerAttributeEntity entity) {
             return all.TryGetValue(entityID, out entity);
         }
 
-        public BattleMinionEntity GetRole() {
+        public PlayerAttributeEntity GetRole() {
             foreach (var entity in all.Values) {
                 if (entity.AllyStatus == AllyStatus.Player) {
                     return entity;
@@ -28,8 +30,8 @@ namespace DC.BattleBusiness {
             return null;
         }
 
-        public BattleMinionEntity[] GetAllEnemy() {
-            var list = new List<BattleMinionEntity>();
+        public PlayerAttributeEntity[] GetAllEnemy() {
+            var list = new List<PlayerAttributeEntity>();
             foreach (var entity in all.Values) {
                 if (entity.AllyStatus == AllyStatus.Computer) {
                     list.Add(entity);
@@ -38,7 +40,7 @@ namespace DC.BattleBusiness {
             return list.ToArray();
         }
 
-        public void Foreach(Action<BattleMinionEntity> action) {
+        public void Foreach(Action<PlayerAttributeEntity> action) {
             foreach (var entity in all.Values) {
                 action(entity);
             }

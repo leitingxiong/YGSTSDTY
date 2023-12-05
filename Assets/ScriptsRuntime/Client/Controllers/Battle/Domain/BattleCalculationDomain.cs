@@ -1,8 +1,11 @@
 using System.Collections.Generic;
-using DC.BattleBusiness.Context;
-using DC.BattleBusiness.Factory;
+using DC;
+using ScriptsRuntime.Client.Controllers.Battle.Context;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.Minion;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity;
+using ScriptsRuntime.Client.Controllers.Battle.Model;
 
-namespace DC.BattleBusiness.Domain {
+namespace ScriptsRuntime.Client.Controllers.Battle.Domain {
 
     public class BattleCalculationDomain {
 
@@ -18,8 +21,8 @@ namespace DC.BattleBusiness.Domain {
         public void Calculate(BattleMissionEntity battle) {
 
             var minionRepo = battleContext.MinionRepo;
-            BattleMinionEntity role = minionRepo.GetRole();
-            BattleMinionEntity[] enemyArray = minionRepo.GetAllEnemy();
+            PlayerAttributeEntity role = minionRepo.GetRole();
+            PlayerAttributeEntity[] enemyArray = minionRepo.GetAllEnemy();
 
             // 4. 计算战斗结果
             // 4.1 规则: 谁先出手 -> Minion

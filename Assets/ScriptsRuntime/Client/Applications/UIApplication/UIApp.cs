@@ -1,8 +1,11 @@
-using UnityEngine;
-using DC.UIApplication.Context;
+using DC;
 using DC.Assets;
+using ScriptsRuntime.Client.Applications.UIApplication.Context;
+using ScriptsRuntime.Client.Applications.UIApplication.Enum;
+using ScriptsRuntime.Client.Applications.UIApplication.Interface;
+using UnityEngine;
 
-namespace DC.UIApplication {
+namespace ScriptsRuntime.Client.Applications.UIApplication {
 
     public class UIApp {
 

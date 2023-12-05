@@ -1,4 +1,4 @@
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity.FSMComponent.StateModel {
 
     public class BattleMissionActActingStateModel {
 

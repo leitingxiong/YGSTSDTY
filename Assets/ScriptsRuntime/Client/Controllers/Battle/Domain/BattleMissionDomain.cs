@@ -1,8 +1,9 @@
-using System.Collections.Generic;
-using DC.BattleBusiness.Context;
-using DC.BattleBusiness.Factory;
+using DC;
+using ScriptsRuntime.Client.Controllers.Battle.Context;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity;
+using ScriptsRuntime.Client.Controllers.Battle.Factory;
 
-namespace DC.BattleBusiness.Domain {
+namespace ScriptsRuntime.Client.Controllers.Battle.Domain {
 
     public class BattleMissionDomain {
 

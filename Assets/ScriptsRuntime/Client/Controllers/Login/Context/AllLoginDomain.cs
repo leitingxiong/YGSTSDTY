@@ -1,6 +1,6 @@
-using DC.LoginBusiness.Domain;
+using ScriptsRuntime.Client.Controllers.Login.Domain;
 
-namespace DC.LoginBusiness.Context {
+namespace ScriptsRuntime.Client.Controllers.Login.Context {
 
     public class AllLoginDomain {
 

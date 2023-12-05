@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Entities.Minion {
 
     public class BattleMinionMod : MonoBehaviour {
 

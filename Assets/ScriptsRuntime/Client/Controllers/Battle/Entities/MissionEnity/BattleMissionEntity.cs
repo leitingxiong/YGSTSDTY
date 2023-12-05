@@ -1,6 +1,8 @@
+using ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity.FSMComponent;
+using ScriptsRuntime.Client.Controllers.Battle.Model;
 using UnityEngine;
 
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity {
 
     public class BattleMissionEntity {
 

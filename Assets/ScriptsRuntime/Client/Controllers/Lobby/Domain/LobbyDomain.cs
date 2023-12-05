@@ -1,7 +1,7 @@
-using DC.UIApplication;
 using DC.Infrastructure.Context;
 using DC.LobbyBusiness.Context;
 using DC.Database;
+using ScriptsRuntime.Client.Applications.UIApplication.Panel;
 
 namespace DC.LobbyBusiness.Domain {
 

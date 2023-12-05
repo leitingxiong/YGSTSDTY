@@ -1,6 +1,6 @@
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Entities.CommonComponent {
 
-    public class BattleMinionAttributeComponent {
+    public class PlayerAttributeComponent {
 
         int hp;
         public int Hp => hp;
@@ -26,7 +26,7 @@ namespace DC.BattleBusiness {
         public int Height => height;
         public void SetHeight(int value) => height = value;
 
-        public BattleMinionAttributeComponent() { }
+        public PlayerAttributeComponent() { }
 
     }
 }

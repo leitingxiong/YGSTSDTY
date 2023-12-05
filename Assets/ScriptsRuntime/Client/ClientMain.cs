@@ -1,27 +1,24 @@
 using System;
-using System.IO;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using DC.LoginBusiness.Controller;
-using DC.LobbyBusiness.Controller;
-using DC.BattleBusiness.Controller;
-using DC.Infrastructure.Context;
-using DC.UIApplication;
-using DC.BattleBusiness;
-using DC.Database;
+using DC;
 using DC.Assets;
-using DC.Template;
+using DC.Database;
 using DC.Events;
+using DC.Infrastructure.Context;
+using DC.LobbyBusiness.Controller;
+using DC.Template;
+using ScriptsRuntime.Client.Applications.UIApplication;
+using ScriptsRuntime.Client.Controllers.Battle;
+using ScriptsRuntime.Client.Controllers.Login;
+using UnityEngine;
 
-namespace DC.Client.Entry {
+namespace ScriptsRuntime.Client {
 
     public class ClientMain : MonoBehaviour {
-
+        //旅舍 英文翻译: Inn
         // ==== Controller ====
         LoginController loginController;
-        LobbyController lobbyController;
-        BattleController battleController;
+        InnController innController;
+        YardController yardController;
 
         // ==== Application ====
         UIApp uiApp;
@@ -65,11 +62,11 @@ namespace DC.Client.Entry {
             // - Login
             loginController = new LoginController();
 
-            // - Lobby
-            lobbyController = new LobbyController();
+            // - Level
+            innController = new InnController();
 
             // - Battle
-            battleController = new BattleController();
+            yardController = new YardController();
 
             // - UI
             uiApp = new UIApp();
@@ -86,10 +83,10 @@ namespace DC.Client.Entry {
             loginController.Inject(infraContext, uiApp);
 
             // - Lobby
-            lobbyController.Inject(infraContext, uiApp);
+            innController.Inject(infraContext, uiApp);
 
             // - Battle
-            battleController.Inject(infraContext, uiApp);
+            yardController.Inject(infraContext, uiApp);
 
             Action action = async () => {
 
@@ -111,10 +108,10 @@ namespace DC.Client.Entry {
                     loginController.Init();
 
                     // - Lobby
-                    lobbyController.Init();
+                    innController.Init();
 
                     // - Battle
-                    battleController.Init();
+                    yardController.Init();
 
                     // ==== GAME START ====
                     loginController.Enter();
@@ -140,9 +137,9 @@ namespace DC.Client.Entry {
             var lobbyEV = infraContext.EventCore.LobbyEventCenter;
             if (lobbyEV.IsEnterLobby) {
                 lobbyEV.SetIsEnterLobby(false);
-                lobbyController.Enter("admin");
+                innController.Enter("admin");
 
-                battleController.Exit();
+                yardController.Exit();
                 return;
             }
 
@@ -150,15 +147,15 @@ namespace DC.Client.Entry {
             var enterBattleEvent = battleEV.EnterBattleEvent;
             if (enterBattleEvent.isEnter) {
                 battleEV.SetEnterBattleEvent((false, 0, 0));
-                battleController.Enter(enterBattleEvent.chapter, enterBattleEvent.level);
+                yardController.Enter(enterBattleEvent.chapter, enterBattleEvent.level);
 
-                lobbyController.Exit();
+                innController.Exit();
                 return;
             }
 
             float dt = Time.deltaTime;
-            lobbyController.Tick(dt);
-            battleController.Tick(dt);
+            innController.Tick(dt);
+            yardController.Tick(dt);
 
         }
 

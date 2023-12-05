@@ -1,4 +1,4 @@
-using DC.UIApplication;
+using ScriptsRuntime.Client.Applications.UIApplication;
 
 namespace DC.LobbyBusiness.Context {
 

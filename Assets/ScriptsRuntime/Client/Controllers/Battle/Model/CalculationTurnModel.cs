@@ -1,4 +1,4 @@
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Model {
 
     public class CalculationTurnModel {
 

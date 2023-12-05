@@ -1,6 +1,6 @@
-using DC.UIApplication;
+using ScriptsRuntime.Client.Applications.UIApplication;
 
-namespace DC.LoginBusiness.Context {
+namespace ScriptsRuntime.Client.Controllers.Login.Context {
 
     public class LoginContext {
 

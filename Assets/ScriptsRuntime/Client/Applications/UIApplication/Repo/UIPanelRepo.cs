@@ -1,7 +1,9 @@
 using System;
 using System.Collections.Generic;
+using DC;
+using ScriptsRuntime.Client.Applications.UIApplication.Interface;
 
-namespace DC.UIApplication {
+namespace ScriptsRuntime.Client.Applications.UIApplication.Repo {
 
     public class UIPanelRepo {
 

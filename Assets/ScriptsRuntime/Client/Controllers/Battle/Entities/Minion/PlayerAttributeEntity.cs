@@ -1,9 +1,12 @@
+using DC;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.CommonComponent;
+using ScriptsRuntime.Client.Controllers.Battle.HUD;
+using ScriptsRuntime.Client.Controllers.Battle.Model;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Entities.Minion {
 
-    public class BattleMinionEntity : MonoBehaviour {
+    public class PlayerAttributeEntity : MonoBehaviour {
 
         // ==== Logic ====
         // - Identity
@@ -20,8 +23,8 @@ namespace DC.BattleBusiness {
         public bool IsLeftSide => allyStatus == AllyStatus.Player;
 
         // - Attribute
-        BattleMinionAttributeComponent attributeComponent;
-        public BattleMinionAttributeComponent AttributeComponent => attributeComponent;
+        PlayerAttributeComponent attributeComponent;
+        public PlayerAttributeComponent AttributeComponent => attributeComponent;
 
         // - Movement
         Vector3 originPosition;
@@ -44,7 +47,7 @@ namespace DC.BattleBusiness {
         public HUDHpBar HUDHpBar => hudHpBar;
 
         public void Ctor() {
-            this.attributeComponent = new BattleMinionAttributeComponent();
+            this.attributeComponent = new PlayerAttributeComponent();
 
             bodyRoot = transform.Find("body");
             hudRoot = bodyRoot.Find("hud_root");

@@ -1,4 +1,6 @@
-namespace DC.BattleBusiness {
+using DC;
+
+namespace ScriptsRuntime.Client.Controllers.Battle.Model {
 
     // 一次行动
     public class CalculationActModel {

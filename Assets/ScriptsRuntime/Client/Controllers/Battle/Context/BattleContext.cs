@@ -1,7 +1,9 @@
-using DC.UIApplication;
-using DC.BattleBusiness;
+using ScriptsRuntime.Client.Applications.UIApplication;
+using ScriptsRuntime.Client.Controllers.Battle.Entities;
+using ScriptsRuntime.Client.Controllers.Battle.Repo;
+using ScriptsRuntime.Client.Controllers.Battle.Service;
 
-namespace DC.BattleBusiness.Context {
+namespace ScriptsRuntime.Client.Controllers.Battle.Context {
 
     public class BattleContext {
 

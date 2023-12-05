@@ -1,8 +1,10 @@
 using System;
+using ScriptsRuntime.Client.Applications.UIApplication.Enum;
+using ScriptsRuntime.Client.Applications.UIApplication.Interface;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace DC.UIApplication {
+namespace ScriptsRuntime.Client.Applications.UIApplication.Panel {
 
     public class UI_Lobby : MonoBehaviour, IUIPanel {
 

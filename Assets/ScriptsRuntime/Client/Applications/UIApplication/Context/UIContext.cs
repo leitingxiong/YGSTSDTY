@@ -1,8 +1,8 @@
-using UnityEngine;
-using UnityEngine.UI;
 using DC.Assets;
+using ScriptsRuntime.Client.Applications.UIApplication.Repo;
+using UnityEngine;
 
-namespace DC.UIApplication.Context {
+namespace ScriptsRuntime.Client.Applications.UIApplication.Context {
 
     public class UIContext {
 

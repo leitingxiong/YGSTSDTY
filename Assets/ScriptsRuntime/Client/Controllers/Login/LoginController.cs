@@ -1,8 +1,8 @@
 using DC.Infrastructure.Context;
-using DC.LoginBusiness.Context;
-using DC.UIApplication;
+using ScriptsRuntime.Client.Applications.UIApplication;
+using ScriptsRuntime.Client.Controllers.Login.Context;
 
-namespace DC.LoginBusiness.Controller {
+namespace ScriptsRuntime.Client.Controllers.Login {
 
     // 登录
     public class LoginController {

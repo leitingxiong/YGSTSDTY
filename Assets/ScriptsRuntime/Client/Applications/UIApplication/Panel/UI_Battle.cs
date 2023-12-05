@@ -1,6 +1,8 @@
+using ScriptsRuntime.Client.Applications.UIApplication.Enum;
+using ScriptsRuntime.Client.Applications.UIApplication.Interface;
 using UnityEngine;
 
-namespace DC.UIApplication {
+namespace ScriptsRuntime.Client.Applications.UIApplication.Panel {
 
     public class UI_Battle : MonoBehaviour, IUIPanel {
 

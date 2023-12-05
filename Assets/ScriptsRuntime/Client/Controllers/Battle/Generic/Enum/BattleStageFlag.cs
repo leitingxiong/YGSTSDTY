@@ -1,4 +1,4 @@
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Generic.Enum {
 
     public enum BattleStageFlag {
         None,

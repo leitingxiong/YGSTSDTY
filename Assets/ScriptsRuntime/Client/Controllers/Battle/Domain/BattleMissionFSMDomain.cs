@@ -1,8 +1,10 @@
-using System.Collections.Generic;
+using DC;
+using ScriptsRuntime.Client.Controllers.Battle.Context;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity.FSMComponent.Enum;
 using UnityEngine;
-using DC.BattleBusiness.Context;
 
-namespace DC.BattleBusiness.Domain {
+namespace ScriptsRuntime.Client.Controllers.Battle.Domain {
 
     public class BattleMissionFSMDomain {
 

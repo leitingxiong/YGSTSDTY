@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace DC.BattleBusiness {
+namespace ScriptsRuntime.Client.Controllers.Battle.Entities.Chest {
 
     public class BattleChestEntity : MonoBehaviour {
 

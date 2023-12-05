@@ -1,8 +1,11 @@
-using UnityEngine;
-using DC.BattleBusiness.Context;
+using DC;
 using DC.Infrastructure.Context;
+using ScriptsRuntime.Client.Controllers.Battle.Context;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.Minion;
+using ScriptsRuntime.Client.Controllers.Battle.Entities.MissionEnity;
+using UnityEngine;
 
-namespace DC.BattleBusiness.Factory {
+namespace ScriptsRuntime.Client.Controllers.Battle.Factory {
 
     public class BattleFactory {
 
@@ -16,7 +19,7 @@ namespace DC.BattleBusiness.Factory {
             this.battleContext = battleContext;
         }
 
-        public BattleMinionEntity CreateMinionEntity(int templateID, AllyStatus allyStatus) {
+        public PlayerAttributeEntity CreateMinionEntity(int templateID, AllyStatus allyStatus) {
             // - Template
             var template = infraContext.TemplateCore.MinionTemplate;
             bool has = template.TryGet(templateID, out var tm);
@@ -41,7 +44,7 @@ namespace DC.BattleBusiness.Factory {
             }
 
             // - Instantiate
-            BattleMinionEntity entity = GameObject.Instantiate(prefab).GetComponent<BattleMinionEntity>();
+            PlayerAttributeEntity entity = GameObject.Instantiate(prefab).GetComponent<PlayerAttributeEntity>();
             entity.Ctor();
 
             // - Mod

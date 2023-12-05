@@ -1,8 +1,8 @@
 using DC.Infrastructure.Context;
-using DC.BattleBusiness.Factory;
-using DC.BattleBusiness.Domain;
+using ScriptsRuntime.Client.Controllers.Battle.Domain;
+using ScriptsRuntime.Client.Controllers.Battle.Factory;
 
-namespace DC.BattleBusiness.Context {
+namespace ScriptsRuntime.Client.Controllers.Battle.Context {
 
     public class AllBattleDomain {
 

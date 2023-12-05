@@ -1,6 +1,6 @@
-using DC.UIApplication;
 using DC.Infrastructure.Context;
 using DC.LobbyBusiness.Context;
+using ScriptsRuntime.Client.Applications.UIApplication;
 
 namespace DC.LobbyBusiness.Controller {
 
@@ -11,13 +11,13 @@ namespace DC.LobbyBusiness.Controller {
                 (任务/商店/邮件/设置/公告/活动/好友/聊天/排行榜/战斗/背包/装备/技能/宠物/宝石/宝物/神器)
             2. 打开 UI_Lobby
     */
-    public class LobbyController {
+    public class InnController {
 
         InfraContext infraContext;
         LobbyContext lobbyContext;
         AllLobbyDomain allLobbyDomain;
 
-        public LobbyController() {
+        public InnController() {
             this.lobbyContext = new LobbyContext();
             this.allLobbyDomain = new AllLobbyDomain();
         }

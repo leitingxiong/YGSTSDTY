@@ -1,0 +1,16 @@
+{
+    "name": "DC.DatabaseCore",
+    "rootNamespace": "",
+    "references": [
+        "GUID:f389493a9a5be534ab6557cf39895bd7"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

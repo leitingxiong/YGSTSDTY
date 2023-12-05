@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Mod_Minion
+  m_EditorClassIdentifier: 
+  m_GroupName: Mod_Minion
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 814f7c39525ede1429ea9c63b3e4aab3
+  m_SerializeEntries:
+  - m_GUID: 3353068e75d557e478a37e5245f77551
+    m_Address: mod_minion_knight
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mod_Minion
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81e62750426554b488093a5f583a7c96
+    m_Address: mod_minion_slim
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Mod_Minion
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b21900cdbc2f69544afced067eb53a90, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0e4de9ea072748e4f9bb6521b8411ca6, type: 2}
+    - {fileID: 11400000, guid: 81801fb55cd5228418ab8d40c216d219, type: 2}

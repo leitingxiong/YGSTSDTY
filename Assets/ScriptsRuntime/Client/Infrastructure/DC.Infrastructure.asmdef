@@ -1,0 +1,20 @@
+{
+    "name": "DC.Infrastructure",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7552acb957010214dbd98a1608f34239",
+        "GUID:10c7e3d49fd91bf46bde2e5ddfed9066",
+        "GUID:6abbe62b96f7c514baa1a00292bb1997",
+        "GUID:aeb6410ed00bee5408c4a5b7d99ae5f3",
+        "GUID:a04083ad7d8febb4c87407002d5a0f53"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

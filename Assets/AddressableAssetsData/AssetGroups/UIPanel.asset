@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UIPanel
+  m_EditorClassIdentifier: 
+  m_GroupName: UIPanel
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 937cc4d8b06bd484087417029a7ed90d
+  m_SerializeEntries:
+  - m_GUID: b244f234e9eb3f04dbc4eb96bbdc9f1e
+    m_Address: UI_Login
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPanel
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ca80109f5c102c42a48ebe0d9824997
+    m_Address: UI_Lobby
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPanel
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b619d650b417c54458619a2c92a6ff0d
+    m_Address: UI_Battle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UIPanel
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b21900cdbc2f69544afced067eb53a90, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: fa506f86355b4054082322e483534b00, type: 2}
+    - {fileID: 11400000, guid: 8dcde18678e7ed94e9310b00a91dbee5, type: 2}

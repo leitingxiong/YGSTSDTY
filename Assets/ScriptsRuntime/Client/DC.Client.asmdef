@@ -1,0 +1,26 @@
+{
+    "name": "DC.Client",
+    "rootNamespace": "",
+    "references": [
+        "GUID:0f69b403aee91a44db0bf95a4246b988",
+        "GUID:3b850bc8f9d79b24cb253c9d724d3837",
+        "GUID:a0c0fbde4e83c724f95816c278c05642",
+        "GUID:cd36e4fcbcff19e41abc773ab162a4e6",
+        "GUID:2e9472a79bd1398458ff05b2bf3c2632",
+        "GUID:18af79cd9abe4fe4e965b9773acbe8de",
+        "GUID:10c7e3d49fd91bf46bde2e5ddfed9066",
+        "GUID:7552acb957010214dbd98a1608f34239",
+        "GUID:6abbe62b96f7c514baa1a00292bb1997",
+        "GUID:aeb6410ed00bee5408c4a5b7d99ae5f3",
+        "GUID:a04083ad7d8febb4c87407002d5a0f53"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

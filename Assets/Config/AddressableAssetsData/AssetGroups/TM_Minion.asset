@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: TM_Minion
+  m_EditorClassIdentifier: 
+  m_GroupName: TM_Minion
+  m_Data:
+    m_SerializedData: []
+  m_GUID: d7afe019952567142a1405e3a557e06f
+  m_SerializeEntries:
+  - m_GUID: 035da08adc8661d4c8d3d45f7a9b2ee2
+    m_Address: so_minion_role_1000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - TM_Minion
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fbb79841cb45cc146af7a5656e517492
+    m_Address: so_minion_monster_2000
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - TM_Minion
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: b21900cdbc2f69544afced067eb53a90, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 0f18995cb66c661438918fed47fb11d0, type: 2}
+    - {fileID: 11400000, guid: 2ed0e2bfff40dde4a963a10da7c1763d, type: 2}

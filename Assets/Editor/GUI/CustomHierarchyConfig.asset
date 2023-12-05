@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3bf2467307f229c40962e35c47834a11, type: 3}
+  m_Name: CustomHierarchyConfig
+  m_EditorClassIdentifier: 
+  iconRectSize: 18
+  firstSpacing: 20
+  iconSpacing: 26
+  insIDRightMargin: 200
+  minIconShowWidth: 150
+  minShowWidth: 130
+  fontColorOffsetX: 18
+  fontColorOffsetY: 0
+  ignoreSpace: 0
+  scaleZeroColor: {r: 0, g: 0, b: 0, a: 0}
+  dividerThickness: 2
+  dividerColor: {r: 0.3490566, g: 0.3490566, b: 0.3490566, a: 0.4}
+  treeLineBaseColor: {r: 1, g: 1, b: 1, a: 1}
+  treeLineLevelColor:
+  - {r: 0.93, g: 1, b: 0.42, a: 1}
+  - {r: 1, g: 0.75, b: 0.42, a: 1}
+  - {r: 1, g: 0.46, b: 0.31, a: 1}
+  - {r: 1, g: 0.35, b: 0.34, a: 1}
+  - {r: 1, g: 0.1, b: 0.9, a: 1}
+  - {r: 0.85, g: 0.5, b: 1, a: 1}
+  - {r: 0.45, g: 0.5, b: 1, a: 1}
+  - {r: 0.1, g: 0.6, b: 1, a: 1}
+  - {r: 0.1, g: 0.8, b: 1, a: 1}
+  - {r: 0, g: 1, b: 0.65, a: 1}
+  - {r: 0.6, g: 0.7, b: 0.2, a: 1}
+  - {r: 0.8, g: 0.4, b: 0, a: 1}
+  - {r: 0.63, g: 0.22, b: 0, a: 1}
+  - {r: 0.83, g: 0.1, b: 0, a: 1}
+  - {r: 0.93, g: 0.46, b: 0.48, a: 1}
+  treeLineMaxShow: 5
+  treeLineSpacing: 14
+  treeLineThickness: 2
+  blockModels:
+  - targetName: MainLayer
+    blockColor: {r: 1, g: 0.92156863, b: 0.015686275, a: 1}
+    fontStyle: 3
+    customAreaTextColor: {r: 0, g: 0, b: 0, a: 0}
+    customAreaTextAlignment: 4
+  - targetName: NormalLayer
+    blockColor: {r: 0, g: 1, b: 1, a: 1}
+    fontStyle: 3
+    customAreaTextColor: {r: 0, g: 0, b: 0, a: 0}
+    customAreaTextAlignment: 4
+  - targetName: ConstUILayer
+    blockColor: {r: 0.5454343, g: 0.5745714, b: 1, a: 1}
+    fontStyle: 3
+    customAreaTextColor: {r: 0, g: 0, b: 0, a: 0}
+    customAreaTextAlignment: 4
+  - targetName: VolumeLayer
+    blockColor: {r: 1, g: 0.3632075, b: 0.5598798, a: 1}
+    fontStyle: 3
+    customAreaTextColor: {r: 0, g: 0, b: 0, a: 0}
+    customAreaTextAlignment: 4
+  - targetName: EnvironmentLayer
+    blockColor: {r: 0.5, g: 0.9, b: 0.2, a: 1}
+    fontStyle: 3
+    customAreaTextColor: {r: 0, g: 0, b: 0, a: 0}
+    customAreaTextAlignment: 4
+  - targetName: MainCamera
+    blockColor: {r: 1, g: 0, b: 0.07, a: 1}
+    fontStyle: 3
+    customAreaTextColor: {r: 0, g: 0, b: 0, a: 0}
+    customAreaTextAlignment: 4
+  - targetName: Launcher
+    blockColor: {r: 1, g: 0.4661931, b: 0, a: 1}
+    fontStyle: 3
+    customAreaTextColor: {r: 0, g: 0, b: 0, a: 0}
+    customAreaTextAlignment: 4
+  highlightModels:
+  - assemblyName: UnityEngine
+    highlightItems:
+    - componentName: Canvas
+      color: {r: 0, g: 1, b: 1, a: 1}
+    - componentName: Camera
+      color: {r: 1, g: 0, b: 0, a: 1}
+    - componentName: SpriteRenderer
+      color: {r: 0.7254, g: 0.4, b: 0.8862, a: 1}
+    - componentName: Light
+      color: {r: 0.83, g: 0.73, b: 0.1, a: 1}
+    - componentName: ReflectionProbe
+      color: {r: 1, g: 1, b: 1, a: 1}
+  - assemblyName: UnityEngine.UI
+    highlightItems:
+    - componentName: Button
+      color: {r: 0, g: 1, b: 0.6, a: 1}
+    - componentName: InputField
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - componentName: ScrollRect
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - componentName: Scrollbar
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - componentName: Toggle
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - componentName: ToggleGroup
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - componentName: HorizontalLayoutGroup
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - componentName: VerticalLayoutGroup
+      color: {r: 1, g: 1, b: 1, a: 1}
+    - componentName: RawImage
+      color: {r: 1, g: 0, b: 0.866, a: 1}
+    - componentName: Image
+      color: {r: 1, g: 0.4, b: 0.95, a: 1}
+    - componentName: Text
+      color: {r: 0.88, g: 0.56, b: 0.14, a: 1}
+  - assemblyName: Assembly-CSharp
+    highlightItems: []

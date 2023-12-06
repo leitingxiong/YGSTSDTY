@@ -2,12 +2,12 @@ using DC.LobbyBusiness.Domain;
 
 namespace DC.LobbyBusiness.Context {
 
-    public class AllLobbyDomain {
+    public class AllInnDomain {
 
         LobbyDomain lobbyDomain;
         public LobbyDomain LobbyDomain => lobbyDomain;
 
-        public AllLobbyDomain() {
+        public AllInnDomain() {
             this.lobbyDomain = new LobbyDomain();
         }
 

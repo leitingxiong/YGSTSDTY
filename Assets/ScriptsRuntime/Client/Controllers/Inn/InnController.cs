@@ -15,18 +15,18 @@ namespace DC.LobbyBusiness.Controller {
 
         InfraContext infraContext;
         LobbyContext lobbyContext;
-        AllLobbyDomain allLobbyDomain;
+        AllInnDomain allInnDomain;
 
         public InnController() {
             this.lobbyContext = new LobbyContext();
-            this.allLobbyDomain = new AllLobbyDomain();
+            this.allInnDomain = new AllInnDomain();
         }
 
         public void Inject(InfraContext infraContext, UIApp uiApp) {
             this.infraContext = infraContext;
 
             lobbyContext.Inject(uiApp);
-            allLobbyDomain.LobbyDomain.Inject(infraContext, lobbyContext);
+            allInnDomain.LobbyDomain.Inject(infraContext, lobbyContext);
         }
 
         public void Init() {
@@ -34,7 +34,7 @@ namespace DC.LobbyBusiness.Controller {
         }
 
         public void Enter(string accountName) {
-            var lobbyDomain = allLobbyDomain.LobbyDomain;
+            var lobbyDomain = allInnDomain.LobbyDomain;
             lobbyDomain.OpenLobby(accountName);
         }
 

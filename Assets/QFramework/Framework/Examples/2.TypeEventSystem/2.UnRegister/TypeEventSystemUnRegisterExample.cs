@@ -10,12 +10,18 @@ namespace QFramework.Example
         {
             
         }
+
+        public struct EventB
+        {
+            
+        }
         
         private void Start()
         {
             TypeEventSystem.Global.Register<EventA>(OnEventA);
+            TypeEventSystem.Global.Register<EventB>(b => { }).UnRegisterWhenGameObjectDestroyed(this);
         }
-
+        
         void OnEventA(EventA e)
         {
             
@@ -34,10 +40,12 @@ namespace QFramework.Example
 
             void Start()
             {
-                TypeEventSystem.Global.Register<EasyEventExample.EventA>(a =>
+                TypeEventSystem.Global.Register<EventA>(a =>
                 {
                     
                 }).AddToUnregisterList(this);
+                
+         
             }
 
             void OnDestroy()

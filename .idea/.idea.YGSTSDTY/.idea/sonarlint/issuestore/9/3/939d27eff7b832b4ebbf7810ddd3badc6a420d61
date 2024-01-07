@@ -1,0 +1,7 @@
+
+mcsharpsquid:S101"QRename class 'APIDoc' to match pascal case naming rules, consider using 'ApiDoc'.(åú¼Í
+;csharpsquid:S2933m"Make 'mLocaleText' 'readonly'.(ýÕ²€
+Scsharpsquid:S1144k"1Remove the unused private field 'mSelectionRect'.(üä„Æúÿÿÿÿ
+Kcsharpsquid:S1144m".Remove the unused private field 'mLocaleText'.(ýÕ²€
+ocsharpsquid:S6608Å"QIndexing at 0 should be used instead of the "Enumerable" extension method "First"(‰à¯þ
+ocsharpsquid:S6608È"QIndexing at 0 should be used instead of the "Enumerable" extension method "First"(°…ù„

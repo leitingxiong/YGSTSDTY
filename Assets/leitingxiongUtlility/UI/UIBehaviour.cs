@@ -1,7 +1,7 @@
 #nullable enable
 using UnityEngine;
 
-namespace KoiroPkg_Universal.UI
+namespace leitingxiongUtlility.UI
 {
     public class UIBehaviour: MonoBehaviour
     {

@@ -112,7 +112,7 @@ namespace QFramework
             else
             {
                 packageKitWindow.titleContent = new GUIContent(LocaleText.QFrameworkSettings);
-                packageKitWindow.position = new Rect(50, 50, 1200, 900);
+                packageKitWindow.minSize = new Vector2(1200, 900);
                 packageKitWindow.Open();
             }
         }
@@ -311,6 +311,7 @@ namespace QFramework
 
                         if (rect.Contains(Event.current.mousePosition) && Event.current.type == EventType.MouseUp)
                         {
+                            GUIUtility.keyboardControl = 0;
                             mSelectedViewRender.Interface.OnHide();
                             mSelectedViewRender = drawer;
                             mSelectedViewRender.Interface.OnShow();

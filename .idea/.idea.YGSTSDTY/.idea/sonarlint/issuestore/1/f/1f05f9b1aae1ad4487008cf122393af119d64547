@@ -1,0 +1,6 @@
+
+}csharpsquid:S2953U"[Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.(œûí„ùÿÿÿÿ
+ccsharpsquid:S22239"FChange the visibility of 'mInstance' or make it 'const' or 'readonly'.(ÀËğ
+ecsharpsquid:S2696a"HRemove this set, which updates a 'static' field from an instance method.(šëÃ˜
+ecsharpsquid:S2696q"HRemove this set, which updates a 'static' field from an instance method.(šëÃ˜
+ecsharpsquid:S2696y"HRemove this set, which updates a 'static' field from an instance method.(šëÃ˜

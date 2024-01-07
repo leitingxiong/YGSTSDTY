@@ -1,7 +1,7 @@
 #nullable enable
 using UnityEngine;
 
-namespace KoiroPkg_Universal
+namespace leitingxiongUtlility
 {
     public struct LazyC<T> where T : Component
     {

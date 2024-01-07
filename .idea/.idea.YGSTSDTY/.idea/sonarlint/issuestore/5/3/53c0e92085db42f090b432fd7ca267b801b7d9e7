@@ -1,0 +1,8 @@
+
+csharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(¤ğ‚‘8©øÜ¡Î1
+csharpsquid:S1186("yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(ˆ¶ª8ªøÜ¡Î1
+Bcsharpsquid:S2933" Make 'battleContext' 'readonly'.(˜«îÕûÿÿÿÿ
+Bcsharpsquid:S2933" Make 'battleFactory' 'readonly'.(òÊé¼şÿÿÿÿ
+xcsharpsquid:S4487"VRemove this unread private field 'infraContext' or refactor the code to use its value.(Şß¿ıÿÿÿÿ
+Ucsharpsquid:S1481 ",Remove the unused local variable 'uiBattle'.(å¨¨Ÿıÿÿÿÿ8ªøÜ¡Î1
+Gcsharpsquid:S125%"Remove this commented out code.(’üÁêøÿÿÿÿ8ªøÜ¡Î1

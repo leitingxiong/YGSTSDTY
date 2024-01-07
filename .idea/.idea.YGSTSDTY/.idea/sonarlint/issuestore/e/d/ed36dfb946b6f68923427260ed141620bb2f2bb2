@@ -1,0 +1,10 @@
+
+<csharpsquid:S2933"Make 'mEvents' 'readonly'.(“ˆœõþÿÿÿÿ
+Ucsharpsquid:S4136"3All 'Register' method overloads should be adjacent.(¢½´‘ùÿÿÿÿ
+Wcsharpsquid:S4136#"5All 'UnRegister' method overloads should be adjacent.(Ê©Úùÿÿÿÿ
+Lcsharpsquid:S4136-"/All 'Send' method overloads should be adjacent.(á¥ˆó
+Wcsharpsquid:S1133["5Do not forget to remove this deprecated code someday.(áëŒµûÿÿÿÿ
+Wcsharpsquid:S1133`"5Do not forget to remove this deprecated code someday.(áëŒµûÿÿÿÿ
+Wcsharpsquid:S1133f"5Do not forget to remove this deprecated code someday.(áëŒµûÿÿÿÿ
+Rcsharpsquid:S1133n"5Do not forget to remove this deprecated code someday.(«ÇÄë
+Rcsharpsquid:S1133t"5Do not forget to remove this deprecated code someday.(«ÇÄë

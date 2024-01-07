@@ -1,0 +1,129 @@
+
+qcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(¦˜ìÔúÿÿÿÿ
+Lcsharpsquid:S1066ä"/Merge this if statement with the enclosing one.(Øëú>
+ucsharpsquid:S6605Ğ"RCollection-specific "Exists" method should be used instead of the "Any" extension.(¹¦”ãûÿÿÿÿ
+Zcsharpsquid:S3267s"8Loops should be simplified using the "Where" LINQ method(Ò™Ÿùÿÿÿÿ
+[csharpsquid:S3267‚"8Loops should be simplified using the "Where" LINQ method(Ò™Ÿùÿÿÿÿ
+bcsharpsquid:S3267à"?Loop should be simplified by calling Select(fi => fi.FullName))(Çş úùÿÿÿÿ
+`csharpsquid:S4136Ë"=All 'UpdateAnimatorBool' method overloads should be adjacent.(–Ò¶ÿÿÿÿÿ
+ccsharpsquid:S4136Õ"@All 'UpdateAnimatorTrigger' method overloads should be adjacent.(öõ›Öÿÿÿÿÿ
+`csharpsquid:S4136Ş"=All 'SetAnimatorTrigger' method overloads should be adjacent.(—Ï¥óúÿÿÿÿ
+\csharpsquid:S4136ç">All 'UpdateAnimatorFloat' method overloads should be adjacent.(¤»ëË
+^csharpsquid:S4136ñ"@All 'UpdateAnimatorInteger' method overloads should be adjacent.(¨Ö•‚
+ucsharpsquid:S4144¤"RUpdate this method so that its implementation is not identical to 'GetFolderName'.(¢ùúáùÿÿÿÿ
+Wcsharpsquid:S1133"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Rcsharpsquid:S11338"5Do not forget to remove this deprecated code someday.(£µ•ß
+Rcsharpsquid:S1133D"5Do not forget to remove this deprecated code someday.(£µ•ß
+Rcsharpsquid:S1133P"5Do not forget to remove this deprecated code someday.(£µ•ß
+Wcsharpsquid:S1133\"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133•"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Wcsharpsquid:S1133g"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Wcsharpsquid:S1133+"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133¯"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133À"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ê"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ô"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133İ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133æ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133ğ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133û"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133‡"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133“"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133š"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133£"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133¬"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133µ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133¾"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ç"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ó"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ú"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133á"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133è"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133î"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133ô"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133ı"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133†"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133˜"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ÿ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133©"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133¶"5Do not forget to remove this deprecated code someday.(•Õºâøÿÿÿÿ
+Xcsharpsquid:S1133¼"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Â"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Õ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ü"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133ã"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133ì"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133ö"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133£"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133·"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133½"5Do not forget to remove this deprecated code someday.(â„çúÿÿÿÿ
+Xcsharpsquid:S1133Ã"5Do not forget to remove this deprecated code someday.(â„çúÿÿÿÿ
+Xcsharpsquid:S1133É"5Do not forget to remove this deprecated code someday.(â„çúÿÿÿÿ
+Xcsharpsquid:S1133Ï"5Do not forget to remove this deprecated code someday.(â„çúÿÿÿÿ
+Xcsharpsquid:S1133Õ"5Do not forget to remove this deprecated code someday.(ÍšÿÌıÿÿÿÿ
+Scsharpsquid:S1133Ü"5Do not forget to remove this deprecated code someday.(éšìç
+Scsharpsquid:S1133â"5Do not forget to remove this deprecated code someday.(éšìç
+Scsharpsquid:S1133è"5Do not forget to remove this deprecated code someday.(ØóÌƒ
+Xcsharpsquid:S1133î"5Do not forget to remove this deprecated code someday.(ª‰ì©üÿÿÿÿ
+Xcsharpsquid:S1133ô"5Do not forget to remove this deprecated code someday.(É†§şÿÿÿÿ
+Scsharpsquid:S1133ú"5Do not forget to remove this deprecated code someday.(İ¾¿ß
+Scsharpsquid:S1133€"5Do not forget to remove this deprecated code someday.(Âº¸Ê
+Xcsharpsquid:S1133ˆ"5Do not forget to remove this deprecated code someday.(çÍæ¶úÿÿÿÿ
+Xcsharpsquid:S1133"5Do not forget to remove this deprecated code someday.(çÍæ¶úÿÿÿÿ
+Xcsharpsquid:S1133˜"5Do not forget to remove this deprecated code someday.(çÍæ¶úÿÿÿÿ
+Xcsharpsquid:S1133 "5Do not forget to remove this deprecated code someday.(çÍæ¶úÿÿÿÿ
+Xcsharpsquid:S1133®"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133»"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Â"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ê"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ğ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ü"5Do not forget to remove this deprecated code someday.(çÍæ¶úÿÿÿÿ
+Xcsharpsquid:S1133ê"5Do not forget to remove this deprecated code someday.(çÍæ¶úÿÿÿÿ
+Xcsharpsquid:S1133ù"5Do not forget to remove this deprecated code someday.(çÍæ¶úÿÿÿÿ
+Xcsharpsquid:S1133†"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133‘"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133œ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133§"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133±"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133º"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ô"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133á"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133í"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133ü"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133‰"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133”"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133¢"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133®"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133º"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Â"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ê"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ó"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133ù"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133‡"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133”"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133£"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133²"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133É"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133Ğ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Scsharpsquid:S1133è"5Do not forget to remove this deprecated code someday.(Íõ€½
+Scsharpsquid:S1133î"5Do not forget to remove this deprecated code someday.(Íõ€½
+Xcsharpsquid:S1133ÿ"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Xcsharpsquid:S1133•	"5Do not forget to remove this deprecated code someday.(À§§üÿÿÿÿ
+Rcsharpsquid:S1133ª	"5Do not forget to remove this deprecated code someday.(¾¾çi
+Rcsharpsquid:S1133¼	"5Do not forget to remove this deprecated code someday.(¾¾çi
+Rcsharpsquid:S1133Ô	"5Do not forget to remove this deprecated code someday.(¾¾çi
+Rcsharpsquid:S1133ë	"5Do not forget to remove this deprecated code someday.(¾¾çi
+Rcsharpsquid:S1133ƒ
+"5Do not forget to remove this deprecated code someday.(¾¾çi
+Icsharpsquid:S1168Ò"+Return an empty collection instead of null.(¥¹ï
+Icsharpsquid:S1168Š"+Return an empty collection instead of null.(¥¹ï
+Icsharpsquid:S1168 "+Return an empty collection instead of null.(¥¹ï
+Tcsharpsquid:S6610Ğ"6"EndsWith" overloads that take a "char" should be used(ç†Õ¨
+ycsharpsquid:S6608Ó"VIndexing at Count-1 should be used instead of the "Enumerable" extension method "Last"(‡îòùÿÿÿÿ
+@csharpsquid:S125{"Remove this commented out code.(‹ÅëÍıÿÿÿÿ
+Acsharpsquid:S125Š"Remove this commented out code.(©û¬şÿÿÿÿ
+;csharpsquid:S125ü"Remove this commented out code.(²öÓI

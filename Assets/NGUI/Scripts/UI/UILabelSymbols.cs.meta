@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/NGUI/Scripts/UI/UILabelSymbols.cs.meta
 guid: 13aa79c2160063d49ae43e775143e211
+========
+guid: 9af889d05404f95469d351dca53a0b5d
+>>>>>>>> origin/main:Assets/NGUI/Scripts/UI/UICircle.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

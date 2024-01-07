@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/NGUI/Scripts/Editor/UICircleEditor.cs.meta
 guid: 17d69e51b2d8cbb42a518074a4a04011
+========
+guid: a1135291213eceb4cac99d24cbcfc1ac
+>>>>>>>> origin/main:Assets/NGUI/Examples/Scripts/Other/PerspectivePixelPerfect.cs.meta
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

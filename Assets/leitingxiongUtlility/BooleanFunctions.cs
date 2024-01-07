@@ -2,7 +2,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace KoiroPkg_Universal
+namespace leitingxiongUtlility
 {
     public class BooleanFunctions
     {

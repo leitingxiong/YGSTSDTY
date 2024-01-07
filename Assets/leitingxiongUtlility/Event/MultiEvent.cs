@@ -3,7 +3,7 @@
 using System;
 using Object = UnityEngine.Object;
 
-namespace KoiroPkg_Universal.Event
+namespace leitingxiongUtlility.Event
 {
     public class MultiEvent<T>
     {

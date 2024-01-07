@@ -1,17 +1,17 @@
 #nullable enable
+#if UNITY_EDITOR
+#endif
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
-#if UNITY_EDITOR
 using UnityEditor.SceneManagement;
-#endif
 using UnityEngine;
 using UnityEngine.Assertions;
 using Object = UnityEngine.Object;
 using Random = UnityEngine.Random;
 
-namespace KoiroPkg_Universal
+namespace leitingxiongUtlility
 {
     public static class UniversalUtils
     {

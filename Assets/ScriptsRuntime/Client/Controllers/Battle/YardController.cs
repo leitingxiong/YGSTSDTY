@@ -11,7 +11,6 @@ namespace ScriptsRuntime.Client.Controllers.Battle {
 
         InfraContext infraContext;
 
-        AllBattleDomain allBattleDomain = new();
         BattleContext battleContext = new();
         BattleFactory battleFactory = new();
 
@@ -21,7 +20,6 @@ namespace ScriptsRuntime.Client.Controllers.Battle {
 
             battleFactory.Inject(infraContext, battleContext);
             battleContext.Inject(uIApp);
-            allBattleDomain.Inject(infraContext, battleContext, battleFactory);
 
         }
 
@@ -32,7 +30,6 @@ namespace ScriptsRuntime.Client.Controllers.Battle {
         public void Enter(int chapter, int level) {
 
             var uiBattle = battleContext.UIApp.Open<UI_Battle>();
-            allBattleDomain.MissionDomain.SpawnMissionByTemplate(chapter,level);
 
         }
 

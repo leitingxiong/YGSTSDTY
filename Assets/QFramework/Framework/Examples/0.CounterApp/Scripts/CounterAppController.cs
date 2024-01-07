@@ -99,6 +99,14 @@ namespace QFramework.Example
             base.ExecuteCommand(command);
             Debug.Log("After " + command.GetType().Name + "Execute");
         }
+
+        protected override TResult ExecuteCommand<TResult>(ICommand<TResult> command)
+        {
+            Debug.Log("Before " + command.GetType().Name + "Execute");
+            var result =  base.ExecuteCommand(command);
+            Debug.Log("After " + command.GetType().Name + "Execute");
+            return result;
+        }
     }
 
     // 引入 Command
@@ -109,15 +117,6 @@ namespace QFramework.Example
             var model = this.GetModel<ICounterAppModel>();
                 
             model.Count.Value++;
-
-            if (model.Count.Value == 10)
-            {
-                Debug.Log("触发 点击达人 成就");
-            }
-            else if (model.Count.Value == 20)
-            {
-                Debug.Log("触发 点击专家 成就");
-            }
         }
     }
     

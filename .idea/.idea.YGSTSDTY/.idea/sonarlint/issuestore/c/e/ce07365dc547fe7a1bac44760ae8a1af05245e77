@@ -1,0 +1,6 @@
+
+qcsharpsquid:S101"URename class 'GUIGraph' to match pascal case naming rules, consider using 'GuiGraph'.(ª»È„
+Lcsharpsquid:S1905T"/Remove this unnecessary cast to 'GUIGraphNode'.(¹åË¼
+jcsharpsquid:S2696!"HRemove this set, which updates a 'static' field from an instance method.(­þé¸þÿÿÿÿ
+jcsharpsquid:S2696+"HRemove this set, which updates a 'static' field from an instance method.(­þé¸þÿÿÿÿ
+jcsharpsquid:S2696S"HRemove this set, which updates a 'static' field from an instance method.(ÄàÜ¬þÿÿÿÿ

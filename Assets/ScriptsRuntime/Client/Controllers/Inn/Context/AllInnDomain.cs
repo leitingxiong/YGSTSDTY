@@ -1,6 +1,6 @@
-using DC.LobbyBusiness.Domain;
+using ScriptsRuntime.Client.Controllers.Inn.Domain;
 
-namespace DC.LobbyBusiness.Context {
+namespace ScriptsRuntime.Client.Controllers.Inn.Context {
 
     public class AllInnDomain {
 

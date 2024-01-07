@@ -1,0 +1,24 @@
+
+csharpsquid:S101Ö"]Rename class 'IOCContainer' to match pascal case naming rules, consider using 'IocContainer'.(¿¹è¬øÿÿÿÿ
+mcsharpsquid:S1118™"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(á–Š
+rcsharpsquid:S1118Ê"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ÍÆ«’ûÿÿÿÿ
+@csharpsquid:S2933Ø"Make 'mInstances' 'readonly'.(ãª¤³úÿÿÿÿ
+:csharpsquid:S2933x"Make 'mContainer' 'readonly'.(ÒÛ€Ù
+Fcsharpsquid:S2933³"#Make 'mTypeEventSystem' 'readonly'.(‰¬¬Çıÿÿÿÿ
+gcsharpsquid:S3246›"DAdd the 'out' keyword to parameter 'TResult' to make it 'covariant'.(ÿâÀşÿÿÿÿ
+bcsharpsquid:S3246À"DAdd the 'out' keyword to parameter 'TResult' to make it 'covariant'.(­°½º
+dcsharpsquid:S3246¿"AAdd the 'in' keyword to parameter 'T' to make it 'contravariant'.(ŸŒ²ãıÿÿÿÿ
+\csharpsquid:S3246‡">Add the 'out' keyword to parameter 'T' to make it 'covariant'.(“î¹
+scsharpsquid:S927¹"QRename parameter 'onValueChanged' to 'action' to match the interface declaration.(ĞÂú‰üÿÿÿÿ
+–csharpsquid:S1939Ñ"y'ICanSendCommand' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(ªéË
+”csharpsquid:S1939Ú"v'ICanGetModel' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(Ü¾±ã
+–csharpsquid:S1939ô"x'ICanGetUtility' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(¹–«í
+•csharpsquid:S1939•"w'ICanGetSystem' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(¨µÂÕ
+šcsharpsquid:S1939›"w'ICanGetSystem' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(ÿâÀşÿÿÿÿ
+”csharpsquid:S1939À"v'ICanGetModel' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(­°½º
+†csharpsquid:S2743H"dA static field in a generic type is not shared among instances of different close constructed types.(³§ÒÑûÿÿÿÿ
+ncsharpsquid:S2223D"LChange the visibility of 'OnRegisterPatch' or make it 'const' or 'readonly'.(±££‹ûÿÿÿÿ
+gcsharpsquid:S2223F"JChange the visibility of 'mArchitecture' or make it 'const' or 'readonly'.(’•‚î
+jcsharpsquid:S2696s"HRemove this set, which updates a 'static' field from an instance method.(¬Ä¡øÿÿÿÿ
+€csharpsquid:S2436½"bReduce the number of generic parameters in the 'EasyEvent' class to no more than the 2 authorized.(Œ¯¸
+]csharpsquid:S1075œ"?Refactor your code not to use hardcoded absolute paths or URIs.(Ùã‚ª

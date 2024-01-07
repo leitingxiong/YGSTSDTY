@@ -1,0 +1,5 @@
+
+lcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(–¬ÏÒ
+}csharpsquid:S29530"[Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.(…ï£öşÿÿÿÿ
+csharpsquid:S2743"dA static field in a generic type is not shared among instances of different close constructed types.(ÁĞ¾ƒ
+fcsharpsquid:S2223"IChange the visibility of 'PrefabLoader' or make it 'const' or 'readonly'.(ÁĞ¾ƒ

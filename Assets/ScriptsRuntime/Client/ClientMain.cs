@@ -4,10 +4,10 @@ using DC.Assets;
 using DC.Database;
 using DC.Events;
 using DC.Infrastructure.Context;
-using DC.LobbyBusiness.Controller;
 using DC.Template;
 using ScriptsRuntime.Client.Applications.UIApplication;
 using ScriptsRuntime.Client.Controllers.Battle;
+using ScriptsRuntime.Client.Controllers.Inn;
 using ScriptsRuntime.Client.Controllers.Login;
 using UnityEngine;
 

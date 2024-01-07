@@ -1,0 +1,4 @@
+
+—csharpsquid:S1186Ž"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(”¡·š
+œcsharpsquid:S1186ô"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(ä‹‰ùúÿÿÿÿ
+kcsharpsquid:S2223"IChange the visibility of 'ID_GENERATOR' or make it 'const' or 'readonly'.(÷Ç±¿þÿÿÿÿ

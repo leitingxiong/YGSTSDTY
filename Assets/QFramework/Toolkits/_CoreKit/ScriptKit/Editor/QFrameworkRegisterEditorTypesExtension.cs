@@ -98,13 +98,5 @@ namespace QFramework
         }
         
     }
-
-    public class JSONObject
-    {
-        public JSONObject(string s)
-        {
-            throw new NotImplementedException();
-        }
-    }
 }
 #endif

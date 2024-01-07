@@ -5,16 +5,13 @@ using UnityEngine;
 namespace DC.Events {
 
     public class EventCore {
+        public LobbyEventCenter LobbyEventCenter { get; }
 
-        LobbyEventCenter lobbyEventCenter;
-        public LobbyEventCenter LobbyEventCenter => lobbyEventCenter;
-
-        BattleEventCenter battleEventCenter;
-        public BattleEventCenter BattleEventCenter => battleEventCenter;
+        public BattleEventCenter BattleEventCenter { get; }
 
         public EventCore() {
-            lobbyEventCenter = new LobbyEventCenter();
-            battleEventCenter = new BattleEventCenter();
+            LobbyEventCenter = new LobbyEventCenter();
+            BattleEventCenter = new BattleEventCenter();
         }
 
     }

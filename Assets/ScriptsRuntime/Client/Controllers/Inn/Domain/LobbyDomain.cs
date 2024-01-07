@@ -1,9 +1,10 @@
-using DC.Infrastructure.Context;
-using DC.LobbyBusiness.Context;
+using DC;
 using DC.Database;
+using DC.Infrastructure.Context;
 using ScriptsRuntime.Client.Applications.UIApplication.Panel;
+using ScriptsRuntime.Client.Controllers.Inn.Context;
 
-namespace DC.LobbyBusiness.Domain {
+namespace ScriptsRuntime.Client.Controllers.Inn.Domain {
 
     public class LobbyDomain {
 

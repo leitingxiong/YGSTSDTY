@@ -1,0 +1,53 @@
+
+€csharpsquid:S101Œ"cRename interface 'IECACondition' to match pascal case naming rules, consider using 'IEcaCondition'.(ÁÉ«ô
+csharpsquid:S101‘"]Rename interface 'IECAAction' to match pascal case naming rules, consider using 'IEcaAction'.(üäíšúÿÿÿÿ
+{csharpsquid:S101–"YRename interface 'IECARule' to match pascal case naming rules, consider using 'IEcaRule'.(°²¦Âşÿÿÿÿ
+…csharpsquid:S101Í"cRename class 'CustomECAAction' to match pascal case naming rules, consider using 'CustomEcaAction'.(›´¸ïüÿÿÿÿ
+†csharpsquid:S101½"iRename class 'CustomECACondition' to match pascal case naming rules, consider using 'CustomEcaCondition'.(áŒ€Ç
+csharpsquid:S101İ"eRename class 'ECARuleExtension' to match pascal case naming rules, consider using 'EcaRuleExtension'.(×¨éc
+•csharpsquid:S101©"sRename class 'ECARuleTriggerExtension' to match pascal case naming rules, consider using 'EcaRuleTriggerExtension'.(üŞñèÿÿÿÿÿ
+ucsharpsquid:S101Ÿ"SRename class 'ECARule' to match pascal case naming rules, consider using 'EcaRule'.(§ØŠÕıÿÿÿÿ
+˜csharpsquid:S101¯"{Rename class 'ActionKitFSMTransitionTable' to match pascal case naming rules, consider using 'ActionKitFsmTransitionTable'.(ñÁ®¼
+mcsharpsquid:S101Ñ"KRename class 'FSM' to match pascal case naming rules, consider using 'Fsm'.(ö”ÇÏıÿÿÿÿ
+wcsharpsquid:S101â"URename class 'FSMState' to match pascal case naming rules, consider using 'FsmState'.(•Û—·üÿÿÿÿ
+~csharpsquid:S101õ"aRename class 'FSMTranslation' to match pascal case naming rules, consider using 'FsmTranslation'.(˜ÒŸ‹
+wcsharpsquid:S101õ	"URename class 'QFSMLite' to match pascal case naming rules, consider using 'QfsmLite'.(Â‘ş›ùÿÿÿÿ
+scsharpsquid:S101ÿ	"WRename class 'QFSMState' to match pascal case naming rules, consider using 'QfsmState'.(›«q
+…csharpsquid:S101’
+"cRename class 'QFSMTranslation' to match pascal case naming rules, consider using 'QfsmTranslation'.(Ã¤æ™úÿÿÿÿ
+zcsharpsquid:S101œ"]Rename class 'ActionKitFSM' to match pascal case naming rules, consider using 'ActionKitFsm'.(ıœòË
+‰csharpsquid:S101î"gRename class 'ActionKitFSMState' to match pascal case naming rules, consider using 'ActionKitFsmState'.(ë“¯…üÿÿÿÿ
+‰csharpsquid:S101•"gRename class 'ActionKitFSMState' to match pascal case naming rules, consider using 'ActionKitFsmState'.(°­ìøüÿÿÿÿ
+xcsharpsquid:S101…"[Rename interface 'IECAEvent' to match pascal case naming rules, consider using 'IEcaEvent'.(óŞ™©
+“csharpsquid:S101¤"qRename class 'ActionKitFSMTransition' to match pascal case naming rules, consider using 'ActionKitFsmTransition'.(çµ–•ùÿÿÿÿ
+“csharpsquid:S101Ç"qRename class 'ActionKitFSMTransition' to match pascal case naming rules, consider using 'ActionKitFsmTransition'.(ğóğêÿÿÿÿÿ
+qcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(—­Í¤ÿÿÿÿÿ
+€csharpsquid:S1155´"bUse '.Any()' to test whether this 'IEnumerable<QFramework.Timeline.TimelinePair>' is empty or not.(‚•¶Ö
+<csharpsquid:S2933’"Make 'mQueue' 'readonly'.(Óíçùÿÿÿÿ
+@csharpsquid:S2933Ó""Make 'mOnStateChanged' 'readonly'.(òÛÎû
+;csharpsquid:S2933”	"Make 'mStateDict' 'readonly'.(£Ïò“
+;csharpsquid:S2933¯
+"Make 'mStateDict' 'readonly'.(··ı
+8csharpsquid:S2933±"Make 'mStates' 'readonly'.(Ì…úÈ
+Ecsharpsquid:S2933²""Make 'mTrasitionTable' 'readonly'.(ÑôíÚıÿÿÿÿ
+>csharpsquid:S2933É" Make 'mSrcStateType' 'readonly'.(²Ñú
+Ccsharpsquid:S2933Ê" Make 'mDstStateType' 'readonly'.(«€¤³úÿÿÿÿ
+_csharpsquid:S3246Œ"AAdd the 'in' keyword to parameter 'T' to make it 'contravariant'.(ÁÉ«ô
+dcsharpsquid:S3246‘"AAdd the 'in' keyword to parameter 'T' to make it 'contravariant'.(üäíšúÿÿÿÿ
+ncsharpsquid:S3881Ÿ"KFix this implementation of 'IDisposable' to conform to the dispose pattern.(§ØŠÕıÿÿÿÿ
+ncsharpsquid:S3881"KFix this implementation of 'IDisposable' to conform to the dispose pattern.(´ñ‹úÿÿÿÿ
+ncsharpsquid:S3881Ñ"KFix this implementation of 'IDisposable' to conform to the dispose pattern.(ö”ÇÏıÿÿÿÿ
+Vcsharpsquid:S3267°"8Loops should be simplified using the "Where" LINQ method(àéãÒ
+Vcsharpsquid:S3267Á"8Loops should be simplified using the "Where" LINQ method(»›ĞÊ
+ncsharpsquid:S3267Ş	"PLoop should be simplified by calling Select(keyValuePair => keyValuePair.Value))(‰ãÆº
+rcsharpsquid:S3604¼"TRemove the member initializer, all constructors set an initial value for the member.(µœªã
+Scsharpsquid:S4136¦"5All 'DelayFrame' method overloads should be adjacent.(•¤ô§
+Wcsharpsquid:S4136¬"4All 'NextFrame' method overloads should be adjacent.(€¨ŠÛûÿÿÿÿ
+Šcsharpsquid:S3887î"lUse an immutable collection or reduce the accessibility of the non-private readonly field 'TranslationDict'.(Ï£•â
+fcsharpsquid:S927¯"DRename parameter 'dt' to 'delta' to match the interface declaration.(Õı«ôüÿÿÿÿ
+bcsharpsquid:S2292ƒ"DMake this an auto-implemented property and remove its backing field.(öœï¿
+gcsharpsquid:S2292‰"DMake this an auto-implemented property and remove its backing field.(¹É”Ñÿÿÿÿÿ
+gcsharpsquid:S2223‚"DChange the visibility of 'Default' or make it 'const' or 'readonly'.(öÎ‘âùÿÿÿÿ
+wcsharpsquid:S4487
+"TRemove this unread private class field 'Name' or refactor the code to use its value.(ÇêßÔÿÿÿÿÿ
+Wcsharpsquid:S1135Ç"4Complete the task associated to this 'TODO' comment.(Ã¼õõÿÿÿÿÿ

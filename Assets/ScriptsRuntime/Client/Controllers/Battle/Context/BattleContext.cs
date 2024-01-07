@@ -16,8 +16,6 @@ namespace ScriptsRuntime.Client.Controllers.Battle.Context {
         public UIApp UIApp => uiApp;
 
         // ==== Repositories ====
-        BattleMinionRepo minionRepo;
-        public BattleMinionRepo MinionRepo => minionRepo;
 
         BattleMissionRepo missionRepo;
         public BattleMissionRepo MissionRepo => missionRepo;
@@ -29,7 +27,6 @@ namespace ScriptsRuntime.Client.Controllers.Battle.Context {
         public BattleContext() {
             this.stateEntity = new BattleStateEntity();
 
-            this.minionRepo = new BattleMinionRepo();
             this.missionRepo = new BattleMissionRepo();
 
             this.idService = new IDService();

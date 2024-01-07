@@ -1,8 +1,8 @@
 using DC.Infrastructure.Context;
-using DC.LobbyBusiness.Context;
 using ScriptsRuntime.Client.Applications.UIApplication;
+using ScriptsRuntime.Client.Controllers.Inn.Context;
 
-namespace DC.LobbyBusiness.Controller {
+namespace ScriptsRuntime.Client.Controllers.Inn {
 
     // 大厅
     /*

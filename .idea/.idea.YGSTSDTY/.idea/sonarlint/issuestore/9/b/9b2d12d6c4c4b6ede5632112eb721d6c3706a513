@@ -1,0 +1,7 @@
+
+’csharpsquid:S101	"qRename class 'BattleMissionFSMDomain' to match pascal case naming rules, consider using 'BattleMissionFsmDomain'.(É¨½Şşÿÿÿÿ
+Lcsharpsquid:S1172Ñ".Remove this unused method parameter 'mission'.(¡Â
+Gcsharpsquid:S1172Ñ")Remove this unused method parameter 'dt'.(¡Â
+9csharpsquid:S3626Á"Remove this redundant jump.(ûÁİ…
+Qcsharpsquid:S11355"4Complete the task associated to this 'TODO' comment.(ò×±Ì
+Vcsharpsquid:S1135}"4Complete the task associated to this 'TODO' comment.(ü ıãùÿÿÿÿ

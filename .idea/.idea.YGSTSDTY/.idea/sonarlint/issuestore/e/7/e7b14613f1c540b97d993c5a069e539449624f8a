@@ -1,0 +1,6 @@
+
+}csharpsquid:S2953L"[Either implement 'IDisposable.Dispose', or totally rename this method to prevent confusion.(œûí„ùÿÿÿÿ
+fcsharpsquid:S2445="DDo not lock on writable field 'mLock', use a readonly field instead.(ıö‹šşÿÿÿÿ
+†csharpsquid:S27434"dA static field in a generic type is not shared among instances of different close constructed types.(“ñøøÿÿÿÿ
+ccsharpsquid:S2223."FChange the visibility of 'mInstance' or make it 'const' or 'readonly'.(ÀËğ
+ecsharpsquid:S2696N"HRemove this set, which updates a 'static' field from an instance method.(šëÃ˜

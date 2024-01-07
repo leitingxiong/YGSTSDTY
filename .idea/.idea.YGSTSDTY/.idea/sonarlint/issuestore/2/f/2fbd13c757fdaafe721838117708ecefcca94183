@@ -1,0 +1,13 @@
+
+lcsharpsquid:S1118“"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ÃˆË^
+pcsharpsquid:S3776€"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Ù¤öÙ
+tcsharpsquid:S3776#"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(§Ô¤çûÿÿÿÿ
+ucsharpsquid:S3776¶"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(øĞ’Ñùÿÿÿÿ
+›csharpsquid:S1186z"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(ûÀ²“üÿÿÿÿ
+—csharpsquid:S1186"yAdd a nested comment explaining why this method is empty, throw a 'NotSupportedException' or complete the implementation.(ÆÏ›†
+qcsharpsquid:S6602Ÿ"N"Find" method should be used instead of the "FirstOrDefault" extension method.(ïÓ²úÿÿÿÿ
+Xcsharpsquid:S11991"6Extract this nested code block into a separate method.(ÒÌâ–øÿÿÿÿ
+scsharpsquid:S2696¸"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(Áë‰…
+scsharpsquid:S2696÷"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(•ùŒÿ
+tcsharpsquid:S6608Ğ"QIndexing at 0 should be used instead of the "Enumerable" extension method "First"(ñ·ˆÖÿÿÿÿÿ
+Qcsharpsquid:S1481¿".Remove the unused local variable 'folderName'.(±É£Œûÿÿÿÿ

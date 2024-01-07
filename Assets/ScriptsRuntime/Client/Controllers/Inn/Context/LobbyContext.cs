@@ -1,6 +1,6 @@
 using ScriptsRuntime.Client.Applications.UIApplication;
 
-namespace DC.LobbyBusiness.Context {
+namespace ScriptsRuntime.Client.Controllers.Inn.Context {
 
     public class LobbyContext {
 

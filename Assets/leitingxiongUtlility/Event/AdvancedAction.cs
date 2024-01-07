@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using Object = UnityEngine.Object;
 
-namespace KoiroPkg_Universal.Event
+namespace leitingxiongUtlility.Event
 {
     public class EmptyCtx
     {

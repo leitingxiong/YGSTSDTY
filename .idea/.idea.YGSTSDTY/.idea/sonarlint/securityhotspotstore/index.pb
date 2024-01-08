@@ -525,3 +525,5 @@ P
  Assets/Scripts/UI/ShopManager.cs,5\e\5e3849f15f92cc02e71e945153fc15b143fd17b4
 Y
 )Assets/Scripts/Grid/Gacha/GachaManager.cs,c\6\c657f207f3de9618c22cca6a19dfb13c992767bd
+N
+Assets/Scripts/UI/UIManager.cs,4\1\41a03d3834c662bc8bc35df273afcc39a03a3798

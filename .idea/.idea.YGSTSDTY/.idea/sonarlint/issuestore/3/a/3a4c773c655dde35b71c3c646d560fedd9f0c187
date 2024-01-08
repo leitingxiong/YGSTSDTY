@@ -1,0 +1,21 @@
+
+pcsharpsquid:S3928|"NThe parameter name 'nameof(inputStream)' is not declared in the argument list.(¹ãèºøÿÿÿÿ
+qcsharpsquid:S3928‹"NThe parameter name 'nameof(inputStream)' is not declared in the argument list.(¹ãèºøÿÿÿÿ
+qcsharpsquid:S3928"NThe parameter name 'nameof(blockFactor)' is not declared in the argument list.(±«®£ûÿÿÿÿ
+rcsharpsquid:S3928¢"OThe parameter name 'nameof(outputStream)' is not declared in the argument list.(ÕƒÅÿÿÿÿÿ
+rcsharpsquid:S3928±"OThe parameter name 'nameof(outputStream)' is not declared in the argument list.(ÕƒÅÿÿÿÿÿ
+qcsharpsquid:S3928µ"NThe parameter name 'nameof(blockFactor)' is not declared in the argument list.(±«®£ûÿÿÿÿ
+ecsharpsquid:S3928ß"HThe parameter name 'nameof(block)' is not declared in the argument list.(Á³òT
+ecsharpsquid:S3928ü"HThe parameter name 'nameof(block)' is not declared in the argument list.(Á³òT
+ecsharpsquid:S3928§"HThe parameter name 'nameof(block)' is not declared in the argument list.(Á³òT
+gcsharpsquid:S3928Ê"IThe parameter name 'nameof(buffer)' is not declared in the argument list.(İş‰
+gcsharpsquid:S3928Ò"IThe parameter name 'nameof(offset)' is not declared in the argument list.(©›Íõ
+Rcsharpsquid:S1066–"/Merge this if statement with the enclosing one.(ùõˆÖÿÿÿÿÿ
+Rcsharpsquid:S1066«"/Merge this if statement with the enclosing one.(ùõˆÖÿÿÿÿÿ
+rcsharpsquid:S4144ù"OUpdate this method so that its implementation is not identical to 'IsEOFBlock'.(¨ßÁîøÿÿÿÿ
+Wcsharpsquid:S1133S"5Do not forget to remove this deprecated code someday.(¸Ü²¸úÿÿÿÿ
+Rcsharpsquid:S1133g"5Do not forget to remove this deprecated code someday.(Ëœ†
+Scsharpsquid:S1133Û"5Do not forget to remove this deprecated code someday.(š—´Ğ
+Scsharpsquid:S1133‚"5Do not forget to remove this deprecated code someday.(Ïœ˜
+Xcsharpsquid:S1133˜"5Do not forget to remove this deprecated code someday.(šò™Òøÿÿÿÿ
+bcsharpsquid:S2292ó"DMake this an auto-implemented property and remove its backing field.(¥ Èø

@@ -1,0 +1,10 @@
+
+tcsharpsquid:S101,"YRename class '_Buffer' to match pascal case naming rules, trim underscores from the name.(ü‘Ça
+csharpsquid:S101È"]Rename class '_BufferSkip' to match pascal case naming rules, trim underscores from the name.(‘‚›ôüÿÿÿÿ
+ucsharpsquid:S3776Ÿ"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(æ§İªıÿÿÿÿ
+7csharpsquid:S907"Remove this use of 'goto'.(ÛÔÑı
+6csharpsquid:S907t"Remove this use of 'goto'.(ÛÔÑı
+9csharpsquid:S3626“"Remove this redundant jump.(ûÁİ…
+9csharpsquid:S3626·"Remove this redundant jump.(ûÁİ…
+bcsharpsquid:S2589"DChange this condition so that it does not always evaluate to 'True'.(¦Æ¤
+acsharpsquid:S2589q"DChange this condition so that it does not always evaluate to 'True'.(¦Æ¤

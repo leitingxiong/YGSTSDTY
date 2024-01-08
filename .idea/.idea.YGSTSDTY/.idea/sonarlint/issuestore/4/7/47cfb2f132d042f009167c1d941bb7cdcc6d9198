@@ -1,0 +1,5 @@
+
+Kcsharpsquid:S3903")Move 'PlayerShop' into a named namespace.(ÿÙ¤Äýÿÿÿÿ
+xcsharpsquid:S927Ú"VRename parameter 'spendGoldAmount' to 'goldAmount' to match the interface declaration.(Ý‡â‚üÿÿÿÿ
+{csharpsquid:S1450("YRemove the field 'playerBase' and declare it as a local variable in the relevant methods.(”Ýñ»þÿÿÿÿ
+Bcsharpsquid:S3458Z" Remove this empty 'case' clause.(£Þ¾Ëþÿÿÿÿ

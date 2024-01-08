@@ -1,0 +1,3 @@
+
+csharpsquid:S101"^Rename class 'UI_PlayerShop' to match pascal case naming rules, consider using 'UiPlayerShop'.(Û»”úÿÿÿÿ
+Ncsharpsquid:S3903",Move 'UI_PlayerShop' into a named namespace.(Û»”úÿÿÿÿ

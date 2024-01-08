@@ -1,0 +1,16 @@
+
+Fcsharpsquid:S1125J"*Remove the unnecessary Boolean literal(s).(°±—M
+Hcsharpsquid:S1125Æ"*Remove the unnecessary Boolean literal(s).(÷‰¾ı
+ucsharpsquid:S3776Û"RRefactor this method to reduce its Cognitive Complexity from 83 to the 15 allowed.( ¡Æ²ûÿÿÿÿ
+gcsharpsquid:S3358æ"DExtract this nested ternary operation into an independent statement.(ƒ¸à±ùÿÿÿÿ
+gcsharpsquid:S3358ç"DExtract this nested ternary operation into an independent statement.(½í¤æüÿÿÿÿ
+bcsharpsquid:S3358è"DExtract this nested ternary operation into an independent statement.(Æ·‚„
+bcsharpsquid:S3358é"DExtract this nested ternary operation into an independent statement.(Œºôˆ
+gcsharpsquid:S3358ê"DExtract this nested ternary operation into an independent statement.(âèÄ±ùÿÿÿÿ
+bcsharpsquid:S3358ë"DExtract this nested ternary operation into an independent statement.(íÒ°
+gcsharpsquid:S3358ì"DExtract this nested ternary operation into an independent statement.(úæùşÿÿÿÿ
+gcsharpsquid:S3358í"DExtract this nested ternary operation into an independent statement.(‘ò«£úÿÿÿÿ
+Kcsharpsquid:S108Š")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ
+mcsharpsquid:S3881"KFix this implementation of 'IDisposable' to conform to the dispose pattern.(¸´Øşÿÿÿÿ
+_csharpsquid:S2589±"AChange this expression which always evaluates to the same result.(¾¶§˜
+gcsharpsquid:S3241="JChange return type to 'void'; not a single caller uses the returned value.(ªÒ€

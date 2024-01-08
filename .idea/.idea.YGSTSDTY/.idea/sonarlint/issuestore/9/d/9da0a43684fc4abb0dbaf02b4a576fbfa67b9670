@@ -1,0 +1,16 @@
+
+_csharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(Š¨¬È
+fcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(éì û8¹ƒ‘ÀÎ1
+kcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(äûöıøÿÿÿÿ8İ¼ö¿Î1
+kcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(¶°èÛûÿÿÿÿ8Ê”ô¿Î1
+kcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(›Ûìÿûÿÿÿÿ8Š¯ÅÎ1
+kcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(”à˜şÿÿÿÿ8Ê”ô¿Î1
+kcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(’‚¿úÿÿÿÿ8®ÛÀÈÎ1
+Ocsharpsquid:S3903"+Move 'NewRoomEvent' into a named namespace.(Š¨¬È8Ûí¹½Î1
+Ncsharpsquid:S3903"*Move 'NewDayEvent' into a named namespace.(éì û8¹ƒ‘ÀÎ1
+Rcsharpsquid:S3903")Move 'CleanEvent' into a named namespace.(äûöıøÿÿÿÿ8Ş¼ö¿Î1
+Vcsharpsquid:S3903"-Move 'GameStartEvent' into a named namespace.(¶°èÛûÿÿÿÿ8Ê”ô¿Î1
+Qcsharpsquid:S3903"(Move 'KillEvent' into a named namespace.(›Ûìÿûÿÿÿÿ8ä¯ÅÎ1
+Tcsharpsquid:S3903"+Move 'UpLevelEvent' into a named namespace.(”à˜şÿÿÿÿ8Ê”ô¿Î1
+Xcsharpsquid:S3903"/Move 'RefreshShopEvent' into a named namespace.(’‚¿úÿÿÿÿ8ı€ÁÈÎ1
+Tcsharpsquid:S3903"+Move 'GetBuffEvent' into a named namespace.(âı½ûùÿÿÿÿ8¶†¿ÈÎ1

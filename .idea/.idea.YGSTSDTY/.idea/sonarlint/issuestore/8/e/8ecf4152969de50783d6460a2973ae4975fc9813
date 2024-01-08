@@ -1,0 +1,7 @@
+
+Fcsharpsquid:S1125F"*Remove the unnecessary Boolean literal(s).(°±—M
+Kcsharpsquid:S108‹")Either remove or fill this block of code.(ÒÌâ–øÿÿÿÿ
+hcsharpsquid:S3881"KFix this implementation of 'IDisposable' to conform to the dispose pattern.(ó‰¥±
+Mcsharpsquid:S4136Y"0All 'Write' method overloads should be adjacent.(¾ˆÃ
+gcsharpsquid:S32419"JChange return type to 'void'; not a single caller uses the returned value.(ªÒ€
+Wcsharpsquid:S1135•"4Complete the task associated to this 'TODO' comment.(šÓÀşÿÿÿÿ

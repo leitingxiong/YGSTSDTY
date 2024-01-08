@@ -1,5 +1,22 @@
+using System;
 using UnityEngine;
+using UnityEngine.UI;
+using QFramework;
 
-public class GameManager : MonoBehaviour
+public class GameManager : Architecture<GameManager>
 {
+    protected override void Init()
+    {
+        RegisterSystem<IRoomSystem>(new RoomSystem());
+        RegisterSystem<IInnSystem>(new InnSystem());
+        RegisterSystem<IBuffSystem>(new BuffSystem());
+        RegisterSystem<IShopSystem>(new ShopSystem());
+        RegisterSystem<IIventorySystem>(new IventorySystem());
+        RegisterSystem<IDaytimeSystem>(new DaytimeSystem());
+
+        RegisterModel<IGameModel>(new GameModel());
+
+        RegisterUtility<IStorage>(new PlayerPrefsStorage());
+    }
+
 }

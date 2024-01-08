@@ -1,0 +1,5 @@
+
+|csharpsquid:S101"`Rename class 'Character_Base' to match pascal case naming rules, consider using 'CharacterBase'.(„àèõ
+fcsharpsquid:S927="KRename parameter 'moveDir' to 'animDir' to match the interface declaration.(éÝ…F
+Qcsharpsquid:S1481$"/Remove the unused local variable 'hitUnitAnim'.(§‹Æƒúÿÿÿÿ
+Tcsharpsquid:S1481%"2Remove the unused local variable 'attackUnitAnim'.(ˆÝÙïúÿÿÿÿ

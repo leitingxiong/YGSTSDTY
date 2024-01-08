@@ -1,0 +1,10 @@
+
+=csharpsquid:S2933"Make 'itemList' 'readonly'.(Õ—Ï·ıÿÿÿÿ
+=csharpsquid:S2933" Make 'useItemAction' 'readonly'.(ÛØ¿ñ
+Acsharpsquid:S2933"%Make 'inventorySlotArray' 'readonly'.(”¼Á
+6csharpsquid:S2933’"Make 'index' 'readonly'.(ÕÖó
+Zcsharpsquid:S3267#"8Loops should be simplified using the "Where" LINQ method(°ØîÇùÿÿÿÿ
+Tcsharpsquid:S41366"2All 'AddItem' method overloads should be adjacent.(«ÄĞşÿÿÿÿ
+mcsharpsquid:S4487’"ORemove this unread private field 'index' or refactor the code to use its value.(ÕÖó
+;csharpsquid:S125"Remove this commented out code.(şê¥•
+@csharpsquid:S125Z"Remove this commented out code.(µØ´İøÿÿÿÿ

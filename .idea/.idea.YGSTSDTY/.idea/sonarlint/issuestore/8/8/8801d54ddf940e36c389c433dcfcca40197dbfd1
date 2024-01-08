@@ -7,14 +7,14 @@ rcsharpsquid:S1118Ê"OAdd a 'protected' constructor or the 'static' keyword t
 Fcsharpsquid:S2933³"#Make 'mTypeEventSystem' 'readonly'.(‰¬¬Çıÿÿÿÿ
 gcsharpsquid:S3246›"DAdd the 'out' keyword to parameter 'TResult' to make it 'covariant'.(ÿâÀşÿÿÿÿ
 bcsharpsquid:S3246À"DAdd the 'out' keyword to parameter 'TResult' to make it 'covariant'.(­°½º
-dcsharpsquid:S3246¿"AAdd the 'in' keyword to parameter 'T' to make it 'contravariant'.(ŸŒ²ãıÿÿÿÿ
 \csharpsquid:S3246‡">Add the 'out' keyword to parameter 'T' to make it 'covariant'.(“î¹
+dcsharpsquid:S3246¿"AAdd the 'in' keyword to parameter 'T' to make it 'contravariant'.(ŸŒ²ãıÿÿÿÿ
 scsharpsquid:S927¹"QRename parameter 'onValueChanged' to 'action' to match the interface declaration.(ĞÂú‰üÿÿÿÿ
+•csharpsquid:S1939•"w'ICanGetSystem' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(¨µÂÕ
+šcsharpsquid:S1939›"w'ICanGetSystem' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(ÿâÀşÿÿÿÿ
 –csharpsquid:S1939Ñ"y'ICanSendCommand' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(ªéË
 ”csharpsquid:S1939Ú"v'ICanGetModel' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(Ü¾±ã
 –csharpsquid:S1939ô"x'ICanGetUtility' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(¹–«í
-•csharpsquid:S1939•"w'ICanGetSystem' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(¨µÂÕ
-šcsharpsquid:S1939›"w'ICanGetSystem' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(ÿâÀşÿÿÿÿ
 ”csharpsquid:S1939À"v'ICanGetModel' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(­°½º
 †csharpsquid:S2743H"dA static field in a generic type is not shared among instances of different close constructed types.(³§ÒÑûÿÿÿÿ
 ncsharpsquid:S2223D"LChange the visibility of 'OnRegisterPatch' or make it 'const' or 'readonly'.(±££‹ûÿÿÿÿ

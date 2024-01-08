@@ -1,0 +1,4 @@
+
+;csharpsquid:S2933["Make 'mDelayTasks' 'readonly'.(ìŸ¤
+Qcsharpsquid:S1066I"/Merge this if statement with the enclosing one.(í‘ÚÜùÿÿÿÿ
+Lcsharpsquid:S1144%"*Remove the unused private method 'Update'.(é¼”²şÿÿÿÿ

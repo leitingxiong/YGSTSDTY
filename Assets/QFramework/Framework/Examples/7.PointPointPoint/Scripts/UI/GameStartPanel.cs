@@ -27,7 +27,7 @@ namespace QFramework.PointGame
                 });
             
             mGameModel = this.GetModel<IGameModel>();
-
+            Debug.Log(mGameModel);
             mGameModel.Gold.Register(OnGoldValueChanged);
             mGameModel.Life.Register(OnLifeValueChanged);
           

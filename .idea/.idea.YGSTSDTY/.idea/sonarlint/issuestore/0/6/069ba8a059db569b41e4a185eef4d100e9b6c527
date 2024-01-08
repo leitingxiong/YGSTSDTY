@@ -1,0 +1,4 @@
+
+‚csharpsquid:S101"fRename class 'Testing_SkillTree' to match pascal case naming rules, consider using 'TestingSkillTree'.(ð™Õ«
+Mcsharpsquid:S3903"0Move 'Testing_SkillTree' into a named namespace.(ð™Õ«
+;csharpsquid:S125"Remove this commented out code.(®§”¤

@@ -1,0 +1,10 @@
+
+ucsharpsquid:S101y"YRename class 'Buffer_' to match pascal case naming rules, trim underscores from the name.(ß‡±Š
+{csharpsquid:S101Á"YRename class 'Buffer_' to match pascal case naming rules, trim underscores from the name.(Ï¼òşÿÿÿÿ
+6csharpsquid:S2933è"Make 'parent' 'readonly'.(œc
+5csharpsquid:S2933”"Make 'gate' 'readonly'.(³´­°
+fcsharpsquid:S2445¨"CDo not lock on writable field 'gate', use a readonly field instead.(è«Æ†øÿÿÿÿ
+fcsharpsquid:S2445°"CDo not lock on writable field 'gate', use a readonly field instead.(è«Æ†øÿÿÿÿ
+fcsharpsquid:S2445¸"CDo not lock on writable field 'gate', use a readonly field instead.(è«Æ†øÿÿÿÿ
+fcsharpsquid:S2445Î"CDo not lock on writable field 'gate', use a readonly field instead.(®”€ÿüÿÿÿÿ
+icsharpsquid:S3218æ"KRename this class to not shadow the outer class' member with the same name.(ÄºÖš

@@ -1,0 +1,7 @@
+
+scsharpsquid:S101"RRename class 'UI_Item' to match pascal case naming rules, consider using 'UiItem'.(ò¾©ñøÿÿÿÿ
+Qcsharpsquid:S1066;"/Merge this if statement with the enclosing one.(à’”§ûÿÿÿÿ
+Lcsharpsquid:S1066="/Merge this if statement with the enclosing one.(¼é‹¿
+Qcsharpsquid:S1066?"/Merge this if statement with the enclosing one.(ù×«Àþÿÿÿÿ
+Lcsharpsquid:S1066A"/Merge this if statement with the enclosing one.(¾¤²›
+@csharpsquid:S125/"Remove this commented out code.(»ºÚÌøÿÿÿÿ

@@ -1,0 +1,8 @@
+
+csharpsquid:S101"^Rename class 'Blood_Handler' to match pascal case naming rules, consider using 'BloodHandler'.(ŞÆª™üÿÿÿÿ
+Ncsharpsquid:S3903",Move 'Blood_Handler' into a named namespace.(ŞÆª™üÿÿÿÿ
+8csharpsquid:S2933"Make 'material' 'readonly'.(­„¾
+Wcsharpsquid:S1117G";Rename 'velocity' which hides the field with the same name.(«ªÛ)
+@csharpsquid:S125"Remove this commented out code.(øßáúıÿÿÿÿ
+;csharpsquid:S1258"Remove this commented out code.(Ë©Ğ×
+@csharpsquid:S125I"Remove this commented out code.(ô“¯şşÿÿÿÿ

@@ -1,0 +1,5 @@
+
+lcsharpsquid:S1118"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(†î¤‹
+gcsharpsquid:S3963"JInitialize all 'static fields' inline and remove the 'static constructor'.(¢‘áà
+fcsharpsquid:S2445"DDo not lock on writable field '_lock', use a readonly field instead.(¯Ø•’ùÿÿÿÿ
+fcsharpsquid:S2445!"DDo not lock on writable field '_lock', use a readonly field instead.(¯Ø•’ùÿÿÿÿ

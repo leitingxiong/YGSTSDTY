@@ -1,0 +1,4 @@
+
+Žcsharpsquid:S101	"fRename struct 'rarityBackGround' to match pascal case naming rules, consider using 'RarityBackGround'.(Æò¬Ÿùÿÿÿÿ8¥¯ÆÉÎ1
+icsharpsquid:S22235"EChange the visibility of 'Instance' or make it 'const' or 'readonly'.(È• Ü8§¯ÆÉÎ1
+ycsharpsquid:S26968"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(Ä“±Ï8«¯ÆÉÎ1

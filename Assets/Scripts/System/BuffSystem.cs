@@ -10,7 +10,6 @@ namespace System
     {
         protected override void OnInit()
         {
-            var gameModel = this.GetModel<IGameModel>();
             
         }
         

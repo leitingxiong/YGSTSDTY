@@ -1,0 +1,6 @@
+
+csharpsquid:S1010"hRename struct 'dailyShopItemType' to match pascal case naming rules, consider using 'DailyShopItemType'.(Š‡Ÿüÿÿÿÿ8–£¼ÉÎ1
+ˆcsharpsquid:S1016"`Rename struct 'shopContainer' to match pascal case naming rules, consider using 'ShopContainer'.(¨„æùÿÿÿÿ8˜£¼ÉÎ1
+ncsharpsquid:S2223+"EChange the visibility of 'Instance' or make it 'const' or 'readonly'.(Ğ•¤½üÿÿÿÿ8š£¼ÉÎ1
+ycsharpsquid:S2696?"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(Ä“±Ï8£¼ÉÎ1
+csharpsquid:S2583I"eChange this condition so that it does not always evaluate to 'True'. Some code paths are unreachable.(÷ÒµÀÿÿÿÿÿ8¢£¼ÉÎ1

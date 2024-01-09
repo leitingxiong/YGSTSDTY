@@ -527,3 +527,5 @@ Y
 )Assets/Scripts/Grid/Gacha/GachaManager.cs,c\6\c657f207f3de9618c22cca6a19dfb13c992767bd
 N
 Assets/Scripts/UI/UIManager.cs,4\1\41a03d3834c662bc8bc35df273afcc39a03a3798
+W
+'Assets/Scripts/Grid/Inventory/UIStat.cs,b\c\bc35d2d4cb86b27e1aef72a18a5abc1eeb551f28

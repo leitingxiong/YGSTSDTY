@@ -1,4 +1,5 @@
 using Grid.Data;
+using QFramework;
 using UnityEngine;
 
 namespace Grid.Inventory
@@ -93,15 +94,6 @@ namespace Grid.Inventory
             }
             return -1;
         }
-        /*IEnumerator SaveDataPeriodically(float interval)
-    {
-        while (true)
-        {
-            DataPlayer.SaveData(playerData);
-            yield return new WaitForSeconds(interval);
-        }
-    }
-    */
         public void OnApplicationQuit()
         {
             // Save any unsaved data here

@@ -1,29 +1,31 @@
 using Grid;
 using Grid.Inventory;
+using Imodel;
 using TMPro;
 using QFramework;
 using UI;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 namespace UI
 {
     public class ShopManager : MonoBehaviour, IController
     {
-        public enum Currency { Gold, Diamond }
-        public PlayerStat playerStat;
+        public enum Currency { Gold, Soul }
+        public IGameModel mGameModel;
 
         [SerializeField] TextMeshProUGUI diamondText;
         [SerializeField] TextMeshProUGUI goldText;
 
-        public int Diamond
+        public int Soul
         {
             get
             {
-                return playerStat.playerData.diamond;
+                return mGameModel.Soul.Value;
             }
             set
             {
-                playerStat.playerData.diamond = value;
+                mGameModel.Soul.Value = value;
                 diamondText.text = value.ToString();
             }
         }
@@ -31,11 +33,11 @@ namespace UI
         {
             get
             {
-                return playerStat.playerData.gold;
+                return mGameModel.Gold.Value;
             }
             set
             {
-                playerStat.playerData.gold = value;
+                mGameModel.Gold.Value = value;
                 goldText.text = value.ToString();
             }
         }
@@ -65,8 +67,9 @@ namespace UI
 
         public void Start()
         {
-            Diamond = playerStat.playerData.diamond;
-            Gold = playerStat.playerData.gold;
+          mGameModel = this.GetModel<IGameModel>();
+            Soul = mGameModel.Soul.Value;
+            Gold = mGameModel.Gold.Value;
             for (int i = 0; i < shopMenu.Length; i++)
             {
                 DisplayMenu(i);
@@ -94,18 +97,18 @@ namespace UI
                         item.Attempt++;
                         InventoryManager.Instance.AddAmountOfItem(item.data, 1);
                     }
-                    else if (item.typeCurrency == Currency.Diamond && Diamond >= item.price)
+                    else if (item.typeCurrency == Currency.Soul && Soul >= item.price)
                     {
-                        Diamond -= item.price;
+                        Soul -= item.price;
                         item.Attempt++;
                         InventoryManager.Instance.AddAmountOfItem(item.data, 1);
                     }
                 }
                 else //If item you buy is Gold or Diamond
                 {
-                    if (item.typeCurrency == Currency.Diamond && Diamond >= item.price)
+                    if (item.typeCurrency == Currency.Soul && Soul >= item.price)
                     {
-                        Diamond -= item.price;
+                        Soul -= item.price;
                         item.Attempt++;
                         Gold += item.price * 10;
                     }
@@ -139,7 +142,7 @@ namespace UI
                 shopSlots[i].data.info = shopContainers[idx].kindOfItem[randKind].itemInfos[ranItem];
             
                 int ranCurrency = Random.Range(0, 2);
-                shopSlots[i].typeCurrency = ranCurrency == 0 ? Currency.Gold : Currency.Diamond;
+                shopSlots[i].typeCurrency = ranCurrency == 0 ? Currency.Gold : Currency.Soul;
                 shopSlots[i].Attempt = 0;
                 shopSlots[i].EnableBuyButton();
             }
@@ -159,4 +162,5 @@ namespace UI
             return GameManager.Interface;
         }
     }
+
 }

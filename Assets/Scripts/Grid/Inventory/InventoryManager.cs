@@ -3,6 +3,7 @@ using System.Linq;
 using Grid.Data;
 using TMPro;
 using UnityEngine;
+using UnityEngine.Serialization;
 using UnityEngine.UI;
 
 namespace Grid.Inventory
@@ -59,7 +60,7 @@ namespace Grid.Inventory
         public GameObject inventoryField;
         public GameObject equipField;
 
-        public PlayerStat playerStat;
+        public PlayerStat gameModel;
 
         public Sprite[] statSprites;
 
@@ -356,8 +357,8 @@ namespace Grid.Inventory
                         InventoryData.RemoveItemData(InventoryData.inventoryData, getItem.data.ID);
                         InventoryData.AddEquipmentData(getItem.data);
 
-                        playerStat.RemoveItemStat(itemEquip);
-                        playerStat.AddItemStat(getItem);
+                        gameModel.RemoveItemStat(itemEquip);
+                        gameModel.AddItemStat(getItem);
 
                         isCarryingItem = false;
                     }
@@ -372,7 +373,7 @@ namespace Grid.Inventory
                         InventoryData.RemoveItemData(InventoryData.inventoryData, getItem.data.ID);
                         InventoryData.AddEquipmentData(getItem.data);
 
-                        playerStat.AddItemStat(getItem);
+                        gameModel.AddItemStat(getItem);
 
                         isCarryingItem = false;
                     }
@@ -398,7 +399,7 @@ namespace Grid.Inventory
                                 InventoryData.RemoveItemData(InventoryData.equipmentData, getItem.data.ID);
                                 InventoryData.AddInventoryData(getItem.data);
 
-                                playerStat.RemoveItemStat(getItem);
+                                gameModel.RemoveItemStat(getItem);
 
                                 break;
                             }

@@ -1,6 +1,0 @@
-
-Ocsharpsquid:S3903"+Move 'InnComponent' into a named namespace.(ÛÛë›8ÈØÝ£Î1
-€csharpsquid:S1450•"VRemove the field 'mBtnAdd' and declare it as a local variable in the relevant methods.(Ü§ßÒúÿÿÿÿ8ß±Ì»Î1
-{csharpsquid:S1450–"VRemove the field 'mBtnSub' and declare it as a local variable in the relevant methods.(€’†é8á±Ì»Î1
-Scsharpsquid:S1144œ")Remove the unused private method 'Start'.(ûàîºûÿÿÿÿ8ã±Ì»Î1
-Rcsharpsquid:S1144Ç"-Remove the unused private method 'OnDestroy'.(”ƒëÁ8æ±Ì»Î1

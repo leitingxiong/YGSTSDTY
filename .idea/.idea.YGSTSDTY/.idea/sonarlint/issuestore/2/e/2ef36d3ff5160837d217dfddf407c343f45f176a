@@ -1,5 +1,0 @@
-
-‡csharpsquid:S101	"fRename struct 'rarityBackGround' to match pascal case naming rules, consider using 'RarityBackGround'.(Æò¬Ÿùÿÿÿÿ
-Lcsharpsquid:S3903"*Move 'ItemManager' into a named namespace.(æ¦³±ÿÿÿÿÿ
-bcsharpsquid:S22235"EChange the visibility of 'Instance' or make it 'const' or 'readonly'.(È• Ü
-rcsharpsquid:S26968"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(Ä“±Ï

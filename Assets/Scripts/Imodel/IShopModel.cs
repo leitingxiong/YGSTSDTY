@@ -26,11 +26,6 @@ namespace Imodel
             Value = 0
         };
 
-        public enum Currency
-        {
-            Gold,
-            Diamond
-        }
 
         protected override void OnInit()
         {

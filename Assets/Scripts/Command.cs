@@ -22,6 +22,7 @@ public class NewRoomCommand : AbstractCommand
         var gameModel = this.GetModel<IGameModel>();
         gameModel.GuestCountLimit.Value += 5;
         gameModel.ActionPoint.Value -= 1;
+        
         this.SendEvent<NewRoomEvent>();
     }
 }
@@ -34,7 +35,7 @@ public class RoomCommand : AbstractCommand
         gameModel.GuestCountLimit.Value = 5;
     }
 }
-public class UpLevelCommand : AbstractCommand
+public class UpLevelRoomCommand : AbstractCommand
 {
     protected override void OnExecute()
     {
@@ -84,7 +85,15 @@ public class GetBuffCommand : AbstractCommand
 {
     protected override void OnExecute()
     {
-        this.SendEvent<GetBuffEvent>();
+        var buffModel = this.GetModel<IBuffModel>();
+        buffModel.GoldBonus.Value += 2;
+    }
+}
+public class OnBuffCommand : AbstractCommand
+{
+    protected override void OnExecute()
+    {
+        this.SendEvent<OnBuffEvent>();
     }
 }
 

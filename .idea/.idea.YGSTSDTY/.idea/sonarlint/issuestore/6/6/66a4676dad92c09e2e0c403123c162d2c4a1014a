@@ -1,9 +1,0 @@
-
-_csharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(Š¨¬È
-kcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(¶°èÛûÿÿÿÿ8Ê”ô¿Î1
-kcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(”žà˜þÿÿÿÿ8Ê”ô¿Î1
-kcsharpsquid:S2094"BRemove this empty class, write its code or make it an "interface".(äûöýøÿÿÿÿ8Ý¼ö¿Î1
-Ocsharpsquid:S3903"+Move 'NewRoomEvent' into a named namespace.(Š¨¬È8Ûí¹½Î1
-Vcsharpsquid:S3903"-Move 'GameStartEvent' into a named namespace.(¶°èÛûÿÿÿÿ8Ê”ô¿Î1
-Tcsharpsquid:S3903"+Move 'UpLevelEvent' into a named namespace.(”žà˜þÿÿÿÿ8Ê”ô¿Î1
-Rcsharpsquid:S3903")Move 'CleanEvent' into a named namespace.(äûöýøÿÿÿÿ8Þ¼ö¿Î1

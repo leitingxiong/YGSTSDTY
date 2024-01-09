@@ -5,30 +5,38 @@ namespace Imodel
 {
     public interface IBuffModel : IModel
     {
-        BindableProperty<float> GoldBonus { get; }
-        BindableProperty<float> GuestBonus { get; }
-        BindableProperty<float> ItemBonus { get; }
-        List<BindableProperty<float>> BuffList { get; set; }
+        BindableProperty<int> GoldBonus { get; }
+        BindableProperty<int> GuestBonus { get; }
+        BindableProperty<int> ItemBonus { get; }
+        List<BindableProperty<int>> BuffList { get; set; }
     }
+
     [System.Serializable]
     public class BuffModel : AbstractModel, IBuffModel
     {
-        public BindableProperty<float> GoldBonus { get; } = new()
+        public BindableProperty<int> GoldBonus { get; } = new()
         {
             Value = 0
         };
-        public BindableProperty<float> GuestBonus { get; } = new()
+
+        public BindableProperty<int> GuestBonus { get; } = new()
         {
             Value = 0
         };
-        public BindableProperty<float> ItemBonus { get; } = new()
+
+        public BindableProperty<int> ItemBonus { get; } = new()
         {
             Value = 0
         };
-        public List<BindableProperty<float>> BuffList { get; set; } = new ();
+
+        public List<BindableProperty<int>> BuffList { get; set; } = new();
+
         protected override void OnInit()
         {
             var storage = this.GetUtility<IStorage>();
+            BuffList.Add(GoldBonus);
+            BuffList.Add(GuestBonus);
+
             // GoldBonus.Value = storage.LoadInt(nameof(GoldBonus), 0);
             // GoldBonus.Register(v => storage.SaveInt(nameof(GoldBonus), v));
             // GuestBonus.Value = storage.LoadInt(nameof(GuestBonus), 0);

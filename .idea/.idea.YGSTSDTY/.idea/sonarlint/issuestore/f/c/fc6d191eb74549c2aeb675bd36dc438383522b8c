@@ -1,33 +1,0 @@
-
-Mcsharpsquid:S1125Ì"*Remove the unnecessary Boolean literal(s).(Á”˜ëúÿÿÿÿ
-pcsharpsquid:S3776â"RRefactor this method to reduce its Cognitive Complexity from 37 to the 15 allowed.(”•Úô
-ucsharpsquid:S3776æ	"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(ÓşÀÌşÿÿÿÿ
-vcsharpsquid:S3776à
-"SRefactor this method to reduce its Cognitive Complexity from 102 to the 15 allowed.(Ğ¯æñûÿÿÿÿ
-pcsharpsquid:S3776ç"RRefactor this method to reduce its Cognitive Complexity from 53 to the 15 allowed.(Êºõ‹
-pcsharpsquid:S3776¥"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(—ìÍ²
-ocsharpsquid:S3776†"RRefactor this method to reduce its Cognitive Complexity from 85 to the 15 allowed.(óÖĞ
-ucsharpsquid:S3776ê"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Á„‘Øüÿÿÿÿ
-pcsharpsquid:S3776Ô"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(Ú‡‹²
-Ccsharpsquid:S3903"&Move 'UIPanel' into a named namespace.(¹à‚
-bcsharpsquid:S3358á"DExtract this nested ternary operation into an independent statement.(´Êïú
-wcsharpsquid:S4143î"TVerify this is the index/key that was intended; a value has already been set for it.(™üè—şÿÿÿÿ
-wcsharpsquid:S4143ï"TVerify this is the index/key that was intended; a value has already been set for it.(ñá‡Éıÿÿÿÿ
-rcsharpsquid:S4143ğ"TVerify this is the index/key that was intended; a value has already been set for it.(æÌâş
-wcsharpsquid:S4143ñ"TVerify this is the index/key that was intended; a value has already been set for it.(¸¼Í¿üÿÿÿÿ
-|csharpsquid:S2386"ZUse an immutable collection or reduce the accessibility of the public static field 'list'.(½¹ªÍûÿÿÿÿ
-Scsharpsquid:S1133Õ"5Do not forget to remove this deprecated code someday.(õŸâ
-Scsharpsquid:S1133¡"5Do not forget to remove this deprecated code someday.(œÄ‚
-ccsharpsquid:S2223"AChange the visibility of 'list' or make it 'const' or 'readonly'.(½¹ªÍûÿÿÿÿ
-fcsharpsquid:S2696À"HRemove this set, which updates a 'static' field from an instance method.(ÆšÙ×
-xcsharpsquid:S2696ê	"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ëª ¯şÿÿÿÿ
-scsharpsquid:S2696Ç"UMake the enclosing instance method 'static' or remove this set on the 'static' field.(ÆšÙ×
-Ocsharpsquid:S1264³",Replace this 'for' loop with a 'while' loop.(ÆÖÓ½øÿÿÿÿ
-Ycsharpsquid:S1117ï";Rename 'depth' which hides the property with the same name.(‡Œ
-^csharpsquid:S1117¶";Rename 'depth' which hides the property with the same name.(ƒÖú¶ùÿÿÿÿ
-Ycsharpsquid:S1117ó";Rename 'width' which hides the property with the same name.(‡°ı
-Zcsharpsquid:S1117ô"<Rename 'height' which hides the property with the same name.(“ŠÀœ
-Acsharpsquid:S125»"Remove this commented out code.(ÏŠæ‡øÿÿÿÿ
-Acsharpsquid:S125‰"Remove this commented out code.(ÿÌ¹öşÿÿÿÿ
-<csharpsquid:S125Ó"Remove this commented out code.(¬×ßˆ
-Acsharpsquid:S125Ê"Remove this commented out code.(¥À×÷ûÿÿÿÿ

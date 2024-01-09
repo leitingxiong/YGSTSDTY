@@ -14,7 +14,7 @@ namespace UI
         public enum Currency { Gold, Soul }
         public IGameModel mGameModel;
 
-        [SerializeField] TextMeshProUGUI diamondText;
+        [SerializeField] TextMeshProUGUI SoulText;
         [SerializeField] TextMeshProUGUI goldText;
 
         public int Soul
@@ -26,7 +26,7 @@ namespace UI
             set
             {
                 mGameModel.Soul.Value = value;
-                diamondText.text = value.ToString();
+                SoulText.text = value.ToString();
             }
         }
         public int Gold

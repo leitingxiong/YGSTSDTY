@@ -1,12 +1,0 @@
-
-xcsharpsquid:S101"\Rename class 'UI_SkillTree' to match pascal case naming rules, consider using 'UiSkillTree'.(È¡ˆÖ
-Hcsharpsquid:S3903"+Move 'UI_SkillTree' into a named namespace.(È¡ˆÖ
->csharpsquid:S2933_"Make 'transform' 'readonly'.( ¯˜ˆþÿÿÿÿ
-:csharpsquid:S2933`"Make 'image' 'readonly'.(“Æ²²ýÿÿÿÿ
-Dcsharpsquid:S2933a""Make 'backgroundImage' 'readonly'.(®òŸ–üÿÿÿÿ
-<csharpsquid:S2933b"Make 'playerSkills' 'readonly'.(Á€‡Ã
-9csharpsquid:S2933c"Make 'skillType' 'readonly'.(¹ƒØ‘
-Ccsharpsquid:S2933d"&Make 'skillLockedMaterial' 'readonly'.(Ç¾üž
-Gcsharpsquid:S2933e"*Make 'skillUnlockableMaterial' 'readonly'.(Ú†ø½
-Qcsharpsquid:S1066t"/Merge this if statement with the enclosing one.(žøåñþÿÿÿÿ
-xcsharpsquid:S3260]"[Private classes which are not derived in the current assembly should be marked as 'sealed'.(ÙîÕ‘

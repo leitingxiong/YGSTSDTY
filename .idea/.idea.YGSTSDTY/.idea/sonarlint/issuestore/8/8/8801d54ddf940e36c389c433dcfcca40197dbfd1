@@ -2,13 +2,13 @@
 csharpsquid:S101Ö"]Rename class 'IOCContainer' to match pascal case naming rules, consider using 'IocContainer'.(¿¹è¬øÿÿÿÿ
 mcsharpsquid:S1118™"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(á–Š
 rcsharpsquid:S1118Ê"OAdd a 'protected' constructor or the 'static' keyword to the class declaration.(ÍÆ«’ûÿÿÿÿ
-@csharpsquid:S2933Ø"Make 'mInstances' 'readonly'.(ãª¤³úÿÿÿÿ
 :csharpsquid:S2933x"Make 'mContainer' 'readonly'.(ÒÛ€Ù
 Fcsharpsquid:S2933³"#Make 'mTypeEventSystem' 'readonly'.(‰¬¬Çıÿÿÿÿ
+@csharpsquid:S2933Ø"Make 'mInstances' 'readonly'.(ãª¤³úÿÿÿÿ
 gcsharpsquid:S3246›"DAdd the 'out' keyword to parameter 'TResult' to make it 'covariant'.(ÿâÀşÿÿÿÿ
 bcsharpsquid:S3246À"DAdd the 'out' keyword to parameter 'TResult' to make it 'covariant'.(­°½º
-\csharpsquid:S3246‡">Add the 'out' keyword to parameter 'T' to make it 'covariant'.(“î¹
 dcsharpsquid:S3246¿"AAdd the 'in' keyword to parameter 'T' to make it 'contravariant'.(ŸŒ²ãıÿÿÿÿ
+\csharpsquid:S3246‡">Add the 'out' keyword to parameter 'T' to make it 'covariant'.(“î¹
 scsharpsquid:S927¹"QRename parameter 'onValueChanged' to 'action' to match the interface declaration.(ĞÂú‰üÿÿÿÿ
 •csharpsquid:S1939•"w'ICanGetSystem' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(¨µÂÕ
 šcsharpsquid:S1939›"w'ICanGetSystem' implements 'IBelongToArchitecture' so 'IBelongToArchitecture' can be removed from the inheritance list.(ÿâÀşÿÿÿÿ

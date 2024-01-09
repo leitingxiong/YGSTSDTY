@@ -1,5 +1,6 @@
 using Imodel;
 using QFramework;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,19 +9,21 @@ namespace UI
     public class GameStartPanel : MonoBehaviour, IController
     {
         private IGameModel mGameModel;
-        private Text _guess;
-        private Text _point;
-        private Text _clean;
-        private Text _gold;
-        private Text _day;
+        private TextMeshProUGUI _guess;
+        private TextMeshProUGUI _point;
+        private TextMeshProUGUI _clean;
+        private TextMeshProUGUI _gold;
+        private TextMeshProUGUI _day;
+        private TextMeshProUGUI _soul;
 
         void Start()
         {
-            _day = transform.Find("Model/DayText").GetComponent<Text>();
-            _gold = transform.Find("Model/GoldText").GetComponent<Text>();
-            _clean = transform.Find("Model/CleanText").GetComponent<Text>();
-            _point = transform.Find("Model/ActionPointText").GetComponent<Text>();
-            _guess = transform.Find("Model/GuestCountText").GetComponent<Text>();
+            _day = transform.Find("Model/DayText").GetComponent<TextMeshProUGUI>();
+            _gold = transform.Find("Model/GoldText").GetComponent<TextMeshProUGUI>();
+            _clean = transform.Find("Model/CleanText").GetComponent<TextMeshProUGUI>();
+            _point = transform.Find("Model/ActionPointText").GetComponent<TextMeshProUGUI>();
+            _guess = transform.Find("Model/GuestCountText").GetComponent<TextMeshProUGUI>();
+            _soul = transform.Find("Model/SoulText").GetComponent<TextMeshProUGUI>();
             transform.Find("BtnStart").GetComponent<Button>()
                 .onClick.AddListener(() =>
                 {
@@ -29,12 +32,12 @@ namespace UI
             
 
             mGameModel = this.GetModel<IGameModel>();
-            Debug.Log(mGameModel);
             mGameModel.Gold.Register(OnGoldValueChanged);
             mGameModel.Cleanliness.Register(OnCleanlinessValueChanged);
             mGameModel.Day.Register(OnDayValueChanged);
             mGameModel.GuestCount.Register(OnGuessValueChanged);
             mGameModel.ActionPoint.Register(OnActionPointValueChanged);
+            mGameModel.Soul.Register(OnSoulValueChanged);
 
             // 第一次需要调用一下
             OnGoldValueChanged(mGameModel.Gold.Value);
@@ -42,6 +45,7 @@ namespace UI
             OnDayValueChanged(mGameModel.Day.Value);
             OnGuessValueChanged(mGameModel.GuestCount.Value);
             OnActionPointValueChanged(mGameModel.ActionPoint.Value);
+            OnSoulValueChanged(mGameModel.Soul.Value);
         }
 
         private void OnActionPointValueChanged(int Point)
@@ -55,6 +59,10 @@ namespace UI
 
         private void OnGuessValueChanged(int GuessCount)
         {
+            if (GuessCount >= mGameModel.GuestCountLimit.Value)
+            {
+                GuessCount = mGameModel.GuestCountLimit.Value;
+            }
             _guess.text = 
                 "客人数/上限：" + GuessCount + "/" + mGameModel.GuestCountLimit.Value;
         }
@@ -73,6 +81,11 @@ namespace UI
         {
             _day.text = "天数:" + day;
         }
+        
+        private void OnSoulValueChanged(int soul)
+        {
+            _soul.text = "灵魂：" + soul;
+        }
 
 
         private void OnDestroy()
@@ -82,6 +95,7 @@ namespace UI
             mGameModel.Day.UnRegister(OnDayValueChanged);
             mGameModel.GuestCount.UnRegister(OnGuessValueChanged);
             mGameModel.ActionPoint.UnRegister(OnActionPointValueChanged);
+            mGameModel.Soul.UnRegister(OnSoulValueChanged);
             mGameModel = null;
         }
 

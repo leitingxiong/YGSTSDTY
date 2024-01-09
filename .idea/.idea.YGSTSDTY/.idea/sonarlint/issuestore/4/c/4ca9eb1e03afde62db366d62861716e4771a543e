@@ -1,0 +1,4 @@
+
+>csharpsquid:S2933"Make 'mTaskPool' 'readonly'.(ñïÙ²úÿÿÿÿ
+;csharpsquid:S2933"Make 'mDelayTasks' 'readonly'.(ìŸ¤
+ucsharpsquid:S14503"XRemove the field 'StartTime' and declare it as a local variable in the relevant methods.(”Æ¢ö

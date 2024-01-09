@@ -1,9 +1,10 @@
 
-Pcsharpsquid:S3903%"-Move 'UpLevelCommand' into a named namespace.(²ÿ‘t8åˆ…ÀÎ1
-Tcsharpsquid:S39032"+Move 'CleanCommand' into a named namespace.(¶‚‡ øÿÿÿÿ8¯Š§¿Î1
-Qcsharpsquid:S3903S"-Move 'GetBuffCommand' into a named namespace.(˜ÏÒ‡8ïÉßÈÎ1
-Pcsharpsquid:S3903<",Move 'NewDayCommand' into a named namespace.(Ž‚¤ª8÷‘·ÁÎ1
-Scsharpsquid:S3903I"*Move 'KillCommand' into a named namespace.(¶¤Š÷ûÿÿÿÿ8èú°ÅÎ1
+Tcsharpsquid:S39033"+Move 'CleanCommand' into a named namespace.(¶‚‡ øÿÿÿÿ8¯Š§¿Î1
+Ucsharpsquid:S3903&"1Move 'UpLevelRoomCommand' into a named namespace.(¡©ÀÆ8ÅÖ­ðÎ1
 Scsharpsquid:S3903"/Move 'StartGameCommand' into a named namespace.(ŒéÄÕ8ÐÓœ¿Î1
+Ncsharpsquid:S3903"*Move 'RoomCommand' into a named namespace.(ª…ð8’ñ…ÀÎ1
+Pcsharpsquid:S3903=",Move 'NewDayCommand' into a named namespace.(Ž‚¤ª8÷‘·ÁÎ1
 Vcsharpsquid:S3903"-Move 'NewRoomCommand' into a named namespace.(ú„éáýÿÿÿÿ8¶Å¦¿Î1
-Ncsharpsquid:S3903"*Move 'RoomCommand' into a named namespace.(ª…ð8’ñ…ÀÎ1
+Pcsharpsquid:S3903\",Move 'OnBuffCommand' into a named namespace.(ªŸÇ8Ÿó¤ðÎ1
+Scsharpsquid:S3903J"*Move 'KillCommand' into a named namespace.(¶¤Š÷ûÿÿÿÿ8èú°ÅÎ1
+Qcsharpsquid:S3903T"-Move 'GetBuffCommand' into a named namespace.(˜ÏÒ‡8ïÉßÈÎ1

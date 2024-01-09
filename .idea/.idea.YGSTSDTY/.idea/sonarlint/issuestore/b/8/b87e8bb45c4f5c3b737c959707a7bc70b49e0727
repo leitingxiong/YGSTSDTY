@@ -1,7 +1,0 @@
-
-}csharpsquid:S101"\Rename class 'UI_Inventory' to match pascal case naming rules, consider using 'UiInventory'.(è´ß¨ÿÿÿÿÿ
-Qcsharpsquid:S1066I"/Merge this if statement with the enclosing one.(å›ã·ûÿÿÿÿ
-ˆcsharpsquid:S2583|"fChange this condition so that it does not always evaluate to 'False'. Some code paths are unreachable.(Î¸Şùÿÿÿÿ
-;csharpsquid:S125C"Remove this commented out code.(˜Õ…
-;csharpsquid:S125S"Remove this commented out code.(±İ×
-:csharpsquid:S125m"Remove this commented out code.(‘¶R

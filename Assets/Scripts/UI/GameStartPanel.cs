@@ -54,7 +54,7 @@ namespace UI
             {
                 this.SendCommand<NewDayCommand>();
             }
-            _point.text = "行动点数：" + Point;
+            _point.text = "ActionPoint：" + Point;
         }
 
         private void OnGuessValueChanged(int GuessCount)
@@ -69,22 +69,22 @@ namespace UI
 
         private void OnCleanlinessValueChanged(int Clean)
         {
-            _clean.text = "整洁度：" + Clean;
+            _clean.text = "clean：" + Clean;
         }
 
         private void OnGoldValueChanged(int gold)
         {
-            _gold.text = "金币：" + gold;
+            _gold.text = "gold：" + gold;
         }
 
         private void OnDayValueChanged(int day)
         {
-            _day.text = "天数:" + day;
+            _day.text = "day:" + day;
         }
         
         private void OnSoulValueChanged(int soul)
         {
-            _soul.text = "灵魂：" + soul;
+            _soul.text = "soul：" + soul;
         }
 
 

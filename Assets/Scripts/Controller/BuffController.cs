@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Controller
 {
-    public class Player : MonoBehaviour
+    public class BuffController : MonoBehaviour
     {
         // 人物的属性...
         private List<Buff> activeBuffs = new List<Buff>();

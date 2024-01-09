@@ -1,5 +1,24 @@
 using System;
+using System.Collections.Generic;
+using Imodel;
+using QFramework;
+public interface IGuestSystem : ISystem
+{
+}
+public class GuestSystem : AbstractSystem, IGuestSystem
+{        
+    CustomerFactory customerFactory = new();
+    private IGameModel gameModel;
 
+    protected override void OnInit()
+    {
+        customerFactory.Createrandom(10);
+        this.RegisterEvent<NewDayEvent>(e =>
+        {
+            customerFactory.Createrandom(gameModel.GuestCount.Value);
+        });
+    }
+}
 // 定义客人接口
 public interface IGuest
 {
@@ -100,10 +119,9 @@ public class CustomerFactory
     public void Createrandom(int num)
     {
         Random random = new Random();
-        CustomerFactory customerFactory = new CustomerFactory();
         for (int i = 0; i < num; i++)
         {
-            IGuest customer = customerFactory.CreateCustomer(random.Next(0,100));
+            IGuest customer = CreateCustomer(random.Next(0,100));
             customer.DisplayInfo();
         }
     }

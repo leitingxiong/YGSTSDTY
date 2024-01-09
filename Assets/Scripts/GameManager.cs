@@ -14,6 +14,7 @@ public class GameManager : Architecture<GameManager>
         RegisterSystem<IShopSystem>(new ShopSystem());
         RegisterSystem<IIventorySystem>(new IventorySystem());
         RegisterSystem<IDaytimeSystem>(new DaytimeSystem());
+        RegisterSystem<IGuestSystem>(new GuestSystem());
 
         RegisterModel<IGameModel>(new GameModel());
 
@@ -21,3 +22,4 @@ public class GameManager : Architecture<GameManager>
     }
 
 }
+

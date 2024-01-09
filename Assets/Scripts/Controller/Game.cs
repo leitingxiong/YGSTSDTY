@@ -1,10 +1,9 @@
-using System;
+using QFramework;
 using UnityEngine;
 using UnityEngine.UI;
-using QFramework;
 
-using UnityEngine;
-
+namespace Controller
+{
     public class Game : MonoBehaviour,IController
     {
         private void Awake()
@@ -23,11 +22,6 @@ using UnityEngine;
             transform.Find("Clean").GetComponent<Button>().onClick.AddListener(() => { this.SendCommand<CleanCommand>(); });
             transform.Find("Kill").GetComponent<Button>().onClick.AddListener(() => { this.SendCommand<KillCommand>(); });     
                 
-                
-                
-                
-                
-                
         }
         
         private void OnGameStart(GameStartEvent e)
@@ -44,3 +38,4 @@ using UnityEngine;
             return GameManager.Interface;
         }
     }
+}

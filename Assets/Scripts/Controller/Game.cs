@@ -20,12 +20,13 @@ namespace Controller
             transform.Find("UpLevel").GetComponent<Button>()
                 .onClick.AddListener(() => { this.SendCommand<UpLevelRoomCommand>(); });
             transform.Find("Clean").GetComponent<Button>().onClick.AddListener(() => { this.SendCommand<CleanCommand>(); });
-            transform.Find("Kill").GetComponent<Button>().onClick.AddListener(() => { this.SendCommand<KillCommand>(); });     
+            transform.Find("Kill").GetComponent<Button>().onClick.AddListener(() => { this.SendCommand<KillCommand>(); }); 
                 
         }
         
         private void OnGameStart(GameStartEvent e)
         {
+            
         }
 
         private void OnDestroy()

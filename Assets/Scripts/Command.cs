@@ -12,7 +12,8 @@ public class StartGameCommand : AbstractCommand
         gameModel.Gold.Value = 1000;
         gameModel.GuestCount.Value = 0;
         gameModel.GuestCountLimit.Value = 50;
-        this.SendEvent<GameStartEvent>();
+        gameModel.Cleanliness.Value = 100;
+        gameModel.ActionPoint.Value = 1;
     }
 }
 public class NewRoomCommand : AbstractCommand

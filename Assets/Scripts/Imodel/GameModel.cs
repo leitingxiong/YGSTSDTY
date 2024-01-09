@@ -65,7 +65,7 @@ namespace Imodel
             Cleanliness.Value = storage.LoadInt(nameof(Cleanliness), 100);
             Cleanliness.Register(v => storage.SaveInt(nameof(Cleanliness), v));
             
-            ActionPoint.Value = storage.LoadInt(nameof(ActionPoint), 3); 
+            ActionPoint.Value = storage.LoadInt(nameof(ActionPoint), 2); 
             ActionPoint.Register(v => storage.SaveInt(nameof(ActionPoint), v)); 
           
             Gold.Value = storage.LoadInt(nameof(Gold), 0); 

@@ -17,9 +17,9 @@ public class GameManager : Architecture<GameManager>
         RegisterSystem<IGuestSystem>(new GuestSystem());
 
         RegisterModel<IGameModel>(new GameModel());
+        RegisterModel<IShopModel>(new ShopModel());
+        RegisterModel<IBuffModel>(new BuffModel());
 
         RegisterUtility<IStorage>(new PlayerPrefsStorage());
     }
-
 }
-
